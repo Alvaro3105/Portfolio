@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfólio de Álvaro Pires de Souza, estudante técnico em TI com projetos em desenvolvimento de software, APIs REST e banco de dados." />
+  <meta name="description" content="Portfólio de Álvaro Pires de Souza, estudante técnico em TI, com projetos em desenvolvimento de software, APIs REST, banco de dados e diferentes áreas de tecnologia." />
   <meta name="theme-color" content="#080b12" />
   <meta property="og:title" content="Álvaro Pires de Souza — Portfólio" />
   <meta property="og:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/images/eu.jpeg" />
+  <meta property="og:url" content="https://alvaro3105.github.io/Portfolio/" />
+  <meta property="og:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Álvaro Pires de Souza — Portfólio" />
+  <meta name="twitter:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
+  <meta name="twitter:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
+  <link rel="canonical" href="https://alvaro3105.github.io/Portfolio/" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
   <title>Álvaro Pires de Souza — Portfólio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,6 +49,17 @@
 
   <main id="main">
     <section class="hero" id="hero">
+      <svg class="flight-path" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="routeGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38BDF8" />
+            <stop offset="100%" stop-color="#8B5CF6" />
+          </linearGradient>
+        </defs>
+        <path class="route" d="M -50 650 Q 400 500 620 380 T 1250 120" fill="none" stroke="url(#routeGrad)" stroke-width="1.4" />
+        <circle cx="-50" cy="650" r="4" fill="#38BDF8" />
+        <circle cx="1250" cy="120" r="4" fill="#8B5CF6" />
+      </svg>
       <div class="container hero-grid">
         <div class="hero-content">
           <div class="availability" data-i18n="availability">Buscando primeira oportunidade em TI</div>
@@ -53,7 +71,7 @@
             <a class="btn primary" href="#projetos" data-i18n="viewProjects">Ver projetos</a>
             <a class="btn secondary" href="https://github.com/Alvaro3105" target="_blank" rel="noopener" data-i18n="github">GitHub</a>
             <a class="btn secondary" href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener" data-i18n="linkedin">LinkedIn</a>
-            <a class="btn secondary" href="assets/docs/Curriculo_Alvaro_Pires_de_Souza.pdf" target="_blank" rel="noopener" data-i18n="resume">Currículo</a>
+            <a class="btn secondary" href="curriculo.html" target="_blank" rel="noopener" data-i18n="resume">Currículo</a>
           </div>
 
           <div class="terminal" aria-label="Tecnologias em destaque">
@@ -63,8 +81,7 @@
         </div>
 
         <div class="hero-photo-wrap reveal">
-          <img class="hero-photo" src="assets/images/eu.jpeg" alt="Álvaro em evento de tecnologia" width="420" height="525" />
-          <p class="photo-note" data-i18n="photoNote">Google I/O Extended • Belo Horizonte</p>
+          <img class="hero-photo" src="assets/images/perfil.jpg" alt="Álvaro Pires de Souza" width="420" height="525" />
         </div>
       </div>
     </section>
@@ -81,8 +98,8 @@
         <div class="about-grid">
           <article class="panel reveal">
             <p data-i18n="aboutP1">Sou estudante do 3º ano do Ensino Médio Técnico em TI no COTEMIG, com conclusão prevista para dezembro de 2026.</p>
-            <p data-i18n="aboutP2">Durante minha formação, venho desenvolvendo projetos com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL. Tenho interesse especial em desenvolvimento de software e banco de dados, sem deixar de aprofundar fundamentos de redes, Linux, hardware e segurança da informação.</p>
-            <p data-i18n="aboutP3">Meu objetivo atual é conquistar minha primeira oportunidade profissional em Tecnologia da Informação, aprender em um ambiente real de trabalho e continuar evoluindo tecnicamente.</p>
+            <p data-i18n="aboutP2">Desenvolvo projetos acadêmicos com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL, com foco em APIs REST, aplicações CRUD e arquitetura em camadas. Também tenho contato com Git e GitHub, Linux, redes de computadores, hardware e segurança da informação.</p>
+            <p data-i18n="aboutP3">Participei de ações voluntárias ligadas ao Code Club e ao World Creativity Day. Atualmente, busco minha primeira oportunidade profissional em Tecnologia da Informação, para aplicar o que aprendi, evoluir perto de profissionais mais experientes e continuar me desenvolvendo tecnicamente.</p>
           </article>
 
           <aside class="panel quick-facts reveal" aria-label="Informações rápidas">
@@ -90,6 +107,7 @@
             <div class="fact"><span data-i18n="factConclusion">Conclusão</span><span data-i18n="factConclusionValue">Dezembro de 2026</span></div>
             <div class="fact"><span data-i18n="factLocation">Localização</span><span data-i18n="factLocationValue">Nova Lima, MG</span></div>
             <div class="fact"><span data-i18n="factEnglish">Inglês</span><span data-i18n="factEnglishValue">Básico • em desenvolvimento</span></div>
+            <div class="fact"><span data-i18n="factInterests">Interesses</span><span data-i18n="factInterestsValue">Tecnologia • Aviação • IA</span></div>
           </aside>
         </div>
       </div>
@@ -107,8 +125,8 @@
 
         <div class="skills-grid">
           <article class="skill-card reveal"><h3 data-i18n="langTitle">Linguagens e Web</h3><div class="pills"><span class="pill">Python</span><span class="pill">PHP</span><span class="pill">C#</span><span class="pill">JavaScript</span><span class="pill">HTML5</span><span class="pill">CSS3</span></div></article>
-          <article class="skill-card reveal"><h3 data-i18n="backendTitle">Backend e APIs</h3><div class="pills"><span class="pill">Flask</span><span class="pill">Laravel</span><span class="pill">REST</span><span class="pill">MVC</span><span class="pill">POO</span><span class="pill">CRUD</span></div></article>
-          <article class="skill-card reveal"><h3 data-i18n="dataTitle">Banco de Dados</h3><div class="pills"><span class="pill">SQL</span><span class="pill">MySQL</span><span class="pill">SQLAlchemy</span><span class="pill">PDO</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="backendTitle">Backend e APIs</h3><div class="pills"><span class="pill">Flask</span><span class="pill">Laravel</span><span class="pill">REST</span><span class="pill">MVC</span><span class="pill">POO</span><span class="pill">CRUD</span><span class="pill">Arquitetura em camadas</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="dataTitle">Dados e Persistência</h3><div class="pills"><span class="pill">SQL</span><span class="pill">MySQL</span><span class="pill">SQLAlchemy</span><span class="pill">PDO</span></div></article>
           <article class="skill-card reveal"><h3 data-i18n="toolsTitle">Ferramentas</h3><div class="pills"><span class="pill">Git</span><span class="pill">GitHub</span><span class="pill">Figma</span><span class="pill">Thunder Client</span></div></article>
           <article class="skill-card reveal"><h3 data-i18n="infraTitle">Infraestrutura</h3><div class="pills"><span class="pill">Linux</span><span class="pill">Redes</span><span class="pill">Hardware</span><span class="pill">Packet Tracer</span></div></article>
           <article class="skill-card reveal"><h3 data-i18n="securityTitle">Segurança</h3><div class="pills"><span class="pill">Autenticação</span><span class="pill">Autorização</span><span class="pill">LGPD</span><span class="pill">Fundamentos de Cybersecurity</span></div></article>
@@ -185,8 +203,12 @@
         </div>
 
         <div class="timeline">
-          <article class="timeline-item reveal"><div class="timeline-date" data-i18n="googleDate">Junho de 2026</div><h3 data-i18n="googleTitle">Google I/O Extended — Belo Horizonte</h3><p data-i18n="googleDesc">Participação em evento da comunidade Google Developer Group Belo Horizonte, com programação voltada a tecnologia e desenvolvimento.</p></article>
-          <article class="timeline-item reveal"><div class="timeline-date" data-i18n="minasDate">Junho de 2026</div><h3 data-i18n="minasTitle">Minas Summit</h3><p data-i18n="minasDesc">Participação em palestras sobre inteligência artificial, inovação, agronegócio e o impacto da IA no trabalho de desenvolvimento.</p></article>
+          <article class="timeline-item reveal">
+            <img class="timeline-photo" src="assets/images/google-io.jpeg" alt="Álvaro no Google I/O Extended Belo Horizonte" loading="lazy" width="400" height="250" />
+            <div class="timeline-date" data-i18n="googleDate">13 de junho de 2026</div><h3 data-i18n="googleTitle">Google I/O Extended — Belo Horizonte</h3><p data-i18n="googleDesc">Participação em evento da comunidade Google Developer Group Belo Horizonte, com programação voltada a tecnologia e desenvolvimento.</p>
+            
+          </article>
+          <article class="timeline-item reveal"><img class="timeline-photo" src="assets/images/minas-summit.jpeg" alt="Álvaro no Minas Summit" loading="lazy" width="400" height="250" /><div class="timeline-date" data-i18n="minasDate">17 e 18 de junho de 2026</div><h3 data-i18n="minasTitle">Minas Summit</h3><p data-i18n="minasDesc">Participei de palestras sobre IA e tecnologia, incluindo "IA Aplicada ao Agronegócio", com Giselle Couto Falcão, e "O Fim do Código?", com Otaviano Silvério.</p></article>
           <article class="timeline-item reveal"><div class="timeline-date" data-i18n="volunteerDate">Voluntariado</div><h3 data-i18n="volunteerTitle">Code Club e World Creativity Day</h3><p data-i18n="volunteerDesc">Participação em ações voluntárias ligadas a tecnologia, educação e criatividade.</p></article>
         </div>
       </div>
@@ -213,6 +235,7 @@
           <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certCoke">Coletivo Coca-Cola Jovem</h3><p data-i18n="coke">Coletivo Coca-Cola • 2026</p></article>
         </div>
         <div class="cert-actions reveal"><button type="button" class="text-button" id="certToggle" data-i18n="showAll">Ver todos</button></div>
+        <p class="cert-note reveal"><a href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener" data-i18n="certLinkedIn">Ver licenças e certificados no LinkedIn →</a></p>
       </div>
     </section>
 

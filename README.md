@@ -1,88 +1,72 @@
 # Álvaro Pires de Souza — Portfólio
 
-Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia.
+Portfólio profissional criado para reunir minha formação técnica em TI, projetos acadêmicos, competências, certificações e participações na comunidade de tecnologia.
 
-## Sobre o projeto
+## Objetivo
 
-A proposta do site é reunir em um único lugar as informações mais relevantes do meu perfil profissional, com foco na busca pela primeira oportunidade em Tecnologia da Informação.
+Apresentar de forma clara meu perfil enquanto concluo o Ensino Médio Técnico em TI no COTEMIG e busco minha primeira oportunidade profissional na área.
 
-O design segue uma identidade visual escura e moderna, com azul e roxo como cores de destaque. O projeto prioriza leitura, responsividade, acessibilidade e uma apresentação profissional, evitando excesso de efeitos visuais.
+## Destaques
 
-## Principais recursos
-
+- identidade visual dark em azul e roxo;
 - layout responsivo para desktop, tablet e celular;
-- navegação fixa e menu adaptado para dispositivos móveis;
-- versão em Português e Inglês com preferência salva no navegador;
-- animação de terminal discreta;
-- animações de entrada utilizando `IntersectionObserver`;
-- suporte a `prefers-reduced-motion`;
-- seção de projetos selecionados;
-- seção de formação, comunidade, voluntariado e certificações;
-- botão "Ver todos" para cursos e certificações;
-- currículo em versão web pronta para impressão ou salvamento em PDF;
-- links diretos para GitHub, LinkedIn e e-mail.
+- Português e Inglês com preferência salva no navegador;
+- terminal discreto e referência visual sutil à aviação;
+- projetos selecionados com contexto acadêmico identificado;
+- formação, eventos, voluntariado e certificações;
+- currículo em versão web pronta para impressão/salvamento em PDF;
+- encaminhamento para licenças e certificados no LinkedIn;
+- acessibilidade com navegação por teclado, foco visível e `prefers-reduced-motion`;
+- metadados básicos de SEO e Open Graph;
+- estrutura compatível com GitHub Pages.
 
-## Tecnologias
+## Tecnologias do portfólio
 
 - HTML5
 - CSS3
 - JavaScript Vanilla
-- Git e GitHub
-- compatível com publicação no GitHub Pages
 
-Não foi utilizado framework JavaScript porque a complexidade atual do projeto não exige React, Vue ou outra biblioteca. A proposta é manter o portfólio simples, rápido e fácil de manter.
+A implementação foi mantida sem framework JavaScript porque a complexidade atual do site não exige uma camada adicional.
+
+## Projetos apresentados
+
+1. **Helpdesk API** — Python, Flask, SQLAlchemy, API REST e testes automatizados.
+2. **Projeto CRUD Varejo** — C# e Windows Forms.
+3. **API REST de Questões** — PHP, Laravel, MySQL e MVC.
+4. **CRUD de Veículos** — PHP, PDO, MySQL, prepared statements e operações CRUD.
 
 ## Estrutura
 
 ```text
 Portfolio/
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── images/
-│   │   └── eu.jpeg
-│   └── js/
-│       └── main.js
-├── curriculo.html
 ├── index.html
-└── README.md
+├── curriculo.html
+├── README.md
+└── assets/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── main.js
+    └── images/
+        ├── perfil.jpg
+        ├── google-io.jpeg
+        ├── minas-summit.jpeg
+        └── favicon.svg
 ```
-
-## Projetos apresentados
-
-O portfólio destaca atualmente:
-
-- **Helpdesk API** — Python, Flask, SQLAlchemy e API REST;
-- **Projeto CRUD Varejo** — C# e Windows Forms;
-- **API REST de Questões** — PHP, Laravel e MySQL;
-- **CRUD de Veículos** — PHP, PDO e MySQL.
-
-Todos são apresentados de acordo com seu contexto real, incluindo a identificação de projetos acadêmicos.
 
 ## Executar localmente
 
-Clone o repositório:
+Clone o repositório e abra `index.html` no navegador ou utilize um servidor local:
 
 ```bash
 git clone https://github.com/Alvaro3105/Portfolio.git
 cd Portfolio
-```
-
-Depois abra `index.html` no navegador ou inicie um servidor local:
-
-```bash
 python -m http.server 8000
 ```
 
-Acesse:
-
-```text
-http://localhost:8000
-```
+Depois acesse `http://localhost:8000`.
 
 ## Contato
-
-**Álvaro Pires de Souza**
 
 - GitHub: [Alvaro3105](https://github.com/Alvaro3105)
 - LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)

@@ -35,6 +35,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
 img { max-width: 100%; display: block; }
 ::selection { background: rgba(59, 130, 246, .32); color: #fff; }
 
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 .skip-link {
   position: fixed;
   left: 1rem;
@@ -97,8 +103,18 @@ img { max-width: 100%; display: block; }
 .menu-btn { display: none; background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: 10px; width: 42px; height: 42px; font-size: 1.15rem; }
 
 /* Hero */
-.hero { min-height: 100vh; display: grid; align-items: center; padding: 8.5rem 0 5rem; position: relative; }
+.hero { min-height: 100vh; display: grid; align-items: center; padding: 8.5rem 0 5rem; position: relative; isolation: isolate; }
 .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: clamp(2.5rem, 7vw, 6rem); }
+
+/* Rota de voo discreta no fundo do Hero - detalhe pessoal (aviacao), puramente decorativo */
+.flight-path { position: absolute; inset: 0; z-index: -1; opacity: .3; pointer-events: none; }
+.flight-path path { stroke-dasharray: 3 10; }
+.flight-path circle { opacity: .8; }
+@media (prefers-reduced-motion: no-preference) {
+  .flight-path .route { animation: flight-dash 70s linear infinite; }
+}
+@keyframes flight-dash { to { stroke-dashoffset: -2000; } }
+@media (max-width: 900px) { .flight-path { opacity: .18; } }
 .availability {
   display: inline-flex; align-items: center; gap: .55rem;
   padding: .45rem .8rem;
@@ -160,7 +176,7 @@ img { max-width: 100%; display: block; }
   margin-inline: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: center;
+  object-position: center 34%;
   border-radius: 26px;
   border: 1px solid rgba(148,163,184,.24);
   box-shadow: var(--shadow);
@@ -214,7 +230,15 @@ img { max-width: 100%; display: block; }
 .certificate-card p { color: var(--muted); font-size: .78rem; margin-top: .4rem; }
 .certificate-card.hidden-cert { display: none; }
 .cert-actions { margin-top: 1.25rem; }
+.cert-note { margin-top: .7rem; font-size: .78rem; }
+.cert-note a { color: var(--muted); text-decoration: none; }
+.cert-note a:hover, .cert-note a:focus-visible { color: var(--blue-light); }
 .text-button { background: transparent; color: var(--blue-light); border: 0; font: 700 .86rem var(--body); cursor: pointer; padding: .3rem 0; }
+.cert-view { display: inline-flex; align-items: center; gap: .35rem; margin-top: .75rem; color: var(--blue-light); text-decoration: none; font-size: .78rem; font-weight: 700; }
+.cert-view:hover { color: #fff; }
+.cert-view::after { content: "↗"; font-size: .82em; }
+
+.timeline-photo { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 10px; border: 1px solid var(--border); margin-bottom: .85rem; }
 
 .contact-wrap { display: grid; grid-template-columns: 1fr .85fr; gap: 1rem; }
 .contact-card { padding: 1.6rem; }
