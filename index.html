@@ -42,7 +42,7 @@
 
       <div class="nav-actions">
         <button class="lang-switch" id="langSwitch" type="button" aria-label="Alternar idioma">EN</button>
-        <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">☰</button>
       </div>
     </div>
   </header>
@@ -59,6 +59,9 @@
         <path class="route" d="M -50 650 Q 400 500 620 380 T 1250 120" fill="none" stroke="url(#routeGrad)" stroke-width="1.4" />
         <circle cx="-50" cy="650" r="4" fill="#38BDF8" />
         <circle cx="1250" cy="120" r="4" fill="#8B5CF6" />
+        <g class="flight-plane" transform="translate(850 276) rotate(-28)" aria-hidden="true">
+          <path d="M0 -13 L2.4 -3.2 L12 -0.9 L12 1.1 L2.4 1.4 L1.2 8.5 L4.3 10.8 L4.3 12 L0 10.8 L-4.3 12 L-4.3 10.8 L-1.2 8.5 L-2.4 1.4 L-12 1.1 L-12 -0.9 L-2.4 -3.2 L0 -13 Z" />
+        </g>
       </svg>
       <div class="container hero-grid">
         <div class="hero-content">
@@ -81,7 +84,7 @@
         </div>
 
         <div class="hero-photo-wrap reveal">
-          <img class="hero-photo" src="assets/images/perfil.jpg" alt="Álvaro Pires de Souza" width="420" height="525" />
+          <img class="hero-photo" src="assets/images/perfil.jpg" alt="Retrato de Álvaro Pires de Souza" width="420" height="525" />
         </div>
       </div>
     </section>
@@ -204,11 +207,10 @@
 
         <div class="timeline">
           <article class="timeline-item reveal">
-            <img class="timeline-photo" src="assets/images/google-io.jpeg" alt="Álvaro no Google I/O Extended Belo Horizonte" loading="lazy" width="400" height="250" />
+            <img class="timeline-photo google-photo" src="assets/images/google-io.jpeg" alt="Álvaro no Google I/O Extended Belo Horizonte" loading="lazy" width="400" height="250" />
             <div class="timeline-date" data-i18n="googleDate">13 de junho de 2026</div><h3 data-i18n="googleTitle">Google I/O Extended — Belo Horizonte</h3><p data-i18n="googleDesc">Participação em evento da comunidade Google Developer Group Belo Horizonte, com programação voltada a tecnologia e desenvolvimento.</p>
-            
           </article>
-          <article class="timeline-item reveal"><img class="timeline-photo" src="assets/images/minas-summit.jpeg" alt="Álvaro no Minas Summit" loading="lazy" width="400" height="250" /><div class="timeline-date" data-i18n="minasDate">17 e 18 de junho de 2026</div><h3 data-i18n="minasTitle">Minas Summit</h3><p data-i18n="minasDesc">Participei de palestras sobre IA e tecnologia, incluindo "IA Aplicada ao Agronegócio", com Giselle Couto Falcão, e "O Fim do Código?", com Otaviano Silvério.</p></article>
+          <article class="timeline-item reveal"><img class="timeline-photo minas-photo" src="assets/images/minas-summit.jpeg" alt="Álvaro no Minas Summit" loading="lazy" width="400" height="250" /><div class="timeline-date" data-i18n="minasDate">17 e 18 de junho de 2026</div><h3 data-i18n="minasTitle">Minas Summit</h3><p data-i18n="minasDesc">Participei de palestras sobre IA e tecnologia, incluindo "IA Aplicada ao Agronegócio", com Giselle Couto Falcão, e "O Fim do Código?", com Otaviano Silvério.</p></article>
           <article class="timeline-item reveal"><div class="timeline-date" data-i18n="volunteerDate">Voluntariado</div><h3 data-i18n="volunteerTitle">Code Club e World Creativity Day</h3><p data-i18n="volunteerDesc">Participação em ações voluntárias ligadas a tecnologia, educação e criatividade.</p></article>
         </div>
       </div>
@@ -270,7 +272,7 @@
   <footer>
     <div class="container footer-inner">
       <span>© <span id="year"></span> Álvaro Pires de Souza</span>
-      <span data-i18n="footer">Portfólio desenvolvido com HTML, CSS e JavaScript.</span>
+      <span class="footer-signature"><span class="aviation-mark" aria-hidden="true">✈</span><span data-i18n="footer">Portfólio desenvolvido com HTML, CSS e JavaScript.</span></span>
     </div>
   </footer>
 
