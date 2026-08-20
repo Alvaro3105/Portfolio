@@ -1,45 +1,88 @@
-# 🌐 Álvaro Pires de Souza — Portfólio Pessoal
+# Álvaro Pires de Souza — Portfólio
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este projeto é uma vitrine interativa desenvolvida para consolidar minhas habilidades de desenvolvimento web, apresentar minha trajetória acadêmica/profissional e exibir minhas principais conquistas e certificações. 
+Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia.
 
-O site conta com um design moderno em formato de **"Cyber-Portfolio"**, trazendo uma interface escura (Dark Mode), elementos em neon, animações fluidas e um fundo interativo em Canvas.
+## Sobre o projeto
 
----
+A proposta do site é reunir em um único lugar as informações mais relevantes do meu perfil profissional, com foco na busca pela primeira oportunidade em Tecnologia da Informação.
 
-## 🚀 Funcionalidades
+O design segue uma identidade visual escura e moderna, com azul e roxo como cores de destaque. O projeto prioriza leitura, responsividade, acessibilidade e uma apresentação profissional, evitando excesso de efeitos visuais.
 
-* **Fundo Dinâmico Interativo:** Sistema de partículas flutuantes renderizado via HTML5 `Canvas` que responde ao redimensionamento da tela.
-* **Design Responsivo:** Totalmente adaptado para dispositivos móveis, tablets e desktops usando CSS Flexbox e Grid.
-* **Animações de Scroll:** Efeitos visuais dinâmicos ao rolar a página alimentados pela biblioteca AOS (Animate On Scroll).
-* **Seção de Certificados:** Galeria dedicada para exibir conquistas acadêmicas relevantes na área de tecnologia.
+## Principais recursos
 
----
+- layout responsivo para desktop, tablet e celular;
+- navegação fixa e menu adaptado para dispositivos móveis;
+- versão em Português e Inglês com preferência salva no navegador;
+- animação de terminal discreta;
+- animações de entrada utilizando `IntersectionObserver`;
+- suporte a `prefers-reduced-motion`;
+- seção de projetos selecionados;
+- seção de formação, comunidade, voluntariado e certificações;
+- botão "Ver todos" para cursos e certificações;
+- currículo em versão web pronta para impressão ou salvamento em PDF;
+- links diretos para GitHub, LinkedIn e e-mail.
 
-## 🎓 Certificações Destacadas
+## Tecnologias
 
-Dentro do escopo de aprendizado demonstrado no projeto, constam conquistas como:
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Git e GitHub
+- GitHub Pages
 
-* **Introdução à IA Moderna** (Cisco Networking Academy / COTEMIG)
-* **Fundamentos do Hardware do Computador** (Cisco Networking Academy / COTEMIG)
-* **Using Computer and Mobile Devices** (Cisco Networking Academy / OpenEDG)
-* **Participação no Google I/O Extended Belo Horizonte** (Google Developer Group BH)
+Não foi utilizado framework JavaScript porque a complexidade atual do projeto não exige React, Vue ou outra biblioteca. A proposta é manter o portfólio simples, rápido e fácil de manter.
 
----
+## Estrutura
 
-## 🛠️ Tecnologias Utilizadas
+```text
+Portfolio/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   └── eu.jpeg
+│   └── js/
+│       └── main.js
+├── curriculo.html
+├── index.html
+└── README.md
+```
 
-O projeto foi construído puramente com tecnologias web nativas para garantir o máximo de performance:
+## Projetos apresentados
 
-* **HTML5:** Estruturação semântica do portfólio.
-* **CSS3:** Estilização avançada, variáveis de ambiente (design tokens), efeitos `backdrop-filter` (Glassmorphism) e responsividade.
-* **JavaScript (Vanilla):** Lógica do efeito de partículas no Canvas e inicialização de bibliotecas.
-* **AOS Library:** Animações ao rolar a página.
-* **Font Awesome:** Ícones vetoriais para links e seções.
+O portfólio destaca atualmente:
 
----
+- **Helpdesk API** — Python, Flask, SQLAlchemy e API REST;
+- **Projeto CRUD Varejo** — C# e Windows Forms;
+- **API REST de Questões** — PHP, Laravel e MySQL;
+- **CRUD de Veículos** — PHP, PDO e MySQL.
 
-## 🔧 Como Executar o Projeto
+Todos são apresentados de acordo com seu contexto real, incluindo a identificação de projetos acadêmicos.
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+## Executar localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Alvaro3105/Portfolio.git
+cd Portfolio
+```
+
+Depois abra `index.html` no navegador ou inicie um servidor local:
+
+```bash
+python -m http.server 8000
+```
+
+Acesse:
+
+```text
+http://localhost:8000
+```
+
+## Contato
+
+**Álvaro Pires de Souza**
+
+- GitHub: [Alvaro3105](https://github.com/Alvaro3105)
+- LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)
