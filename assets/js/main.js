@@ -262,6 +262,9 @@ $("#certToggle")?.addEventListener("click", () => {
   $("#certToggle").textContent = active ? translations[lang].showLess : translations[lang].showAll;
 });
 
+const resumeLink = $('[data-i18n="resume"]');
+if (resumeLink) resumeLink.href = "curriculo.html";
+
 $("#year").textContent = new Date().getFullYear();
 applyLanguage(lang);
 setInterval(cycleTerminal, 4200);
