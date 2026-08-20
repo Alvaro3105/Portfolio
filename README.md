@@ -28,7 +28,7 @@ O design segue uma identidade visual escura e moderna, com azul e roxo como core
 - CSS3
 - JavaScript Vanilla
 - Git e GitHub
-- GitHub Pages
+- compatível com publicação no GitHub Pages
 
 Não foi utilizado framework JavaScript porque a complexidade atual do projeto não exige React, Vue ou outra biblioteca. A proposta é manter o portfólio simples, rápido e fácil de manter.
 
