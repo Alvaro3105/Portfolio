@@ -4,8 +4,7 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 
 ## Destaques
 
-- modos **escuro e claro**, com preferência salva no navegador;
-- identidade visual em azul e roxo, com os acentos um pouco mais presentes sem perder a sobriedade;
+- identidade visual dark em azul e roxo;
 - layout responsivo para desktop, tablet e celular;
 - versão em Português e Inglês com preferência salva no navegador;
 - terminal discreto e referência visual sutil à aviação;
@@ -20,7 +19,7 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 
 ## Identidade visual
 
-A interface possui tema claro e escuro e usa azul e roxo como cores de destaque. Os efeitos permanecem moderados para manter uma apresentação profissional.
+A interface mantém o visual escuro original em azul e roxo, com efeitos moderados para preservar uma apresentação profissional.
 
 Como detalhe pessoal, o Hero possui uma rota de voo com um pequeno avião e o perfil inclui aviação entre os interesses, sem transformar o portfólio em um site temático.
 
@@ -49,8 +48,7 @@ Portfolio/
 └── assets/
     ├── css/
     │   ├── style.css
-    │   ├── base.css
-    │   └── theme.css
+    │   └── base.css
     ├── js/
     │   ├── main.js
     │   └── legacy-main.js
