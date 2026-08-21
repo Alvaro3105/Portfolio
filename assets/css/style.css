@@ -1,2 +1,7 @@
 @import url("./base.css");
-@import url("./theme.css");
+
+/* Mantém o visual original; apenas ajusta o enquadramento das fotos novas. */
+.hero-photo { object-position: center 35%; }
+.google-photo { object-position: center 36%; }
+.minas-photo { object-position: center 34%; }
+.wcd-photo { object-position: center 31%; }
