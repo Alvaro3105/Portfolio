@@ -4,12 +4,14 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 
 ## Destaques
 
-- identidade visual dark em azul e roxo;
+- modos **escuro e claro**, com preferência salva no navegador;
+- identidade visual em azul e roxo, com os acentos um pouco mais presentes sem perder a sobriedade;
 - layout responsivo para desktop, tablet e celular;
 - versão em Português e Inglês com preferência salva no navegador;
 - terminal discreto e referência visual sutil à aviação;
+- foto principal no Hero e registros de Google I/O Extended, Minas Summit e World Creativity Day;
 - projetos selecionados com contexto acadêmico identificado;
-- formação, Google I/O Extended, Minas Summit e voluntariado;
+- formação, eventos, voluntariado e certificações;
 - currículo em versão web pronta para impressão ou salvamento em PDF;
 - seção de certificações com acesso ao LinkedIn;
 - acessibilidade com navegação por teclado, foco visível e `prefers-reduced-motion`;
@@ -18,7 +20,9 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 
 ## Identidade visual
 
-A interface usa uma paleta escura em azul e roxo e mantém os efeitos visuais de forma moderada. Como detalhe pessoal, o Hero possui uma rota de voo com um pequeno avião e o perfil inclui aviação entre os interesses, sem transformar o portfólio em um site temático.
+A interface possui tema claro e escuro e usa azul e roxo como cores de destaque. Os efeitos permanecem moderados para manter uma apresentação profissional.
+
+Como detalhe pessoal, o Hero possui uma rota de voo com um pequeno avião e o perfil inclui aviação entre os interesses, sem transformar o portfólio em um site temático.
 
 ## Tecnologias do portfólio
 
@@ -44,13 +48,17 @@ Portfolio/
 ├── README.md
 └── assets/
     ├── css/
-    │   └── style.css
+    │   ├── style.css
+    │   ├── base.css
+    │   └── theme.css
     ├── js/
-    │   └── main.js
+    │   ├── main.js
+    │   └── legacy-main.js
     └── images/
         ├── perfil.jpg
         ├── google-io.jpeg
         ├── minas-summit.jpeg
+        ├── world-creativity-day.jpg
         └── favicon.svg
 ```
 
