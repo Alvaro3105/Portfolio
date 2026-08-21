@@ -8,9 +8,8 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 - layout responsivo para desktop, tablet e celular;
 - versão em Português e Inglês com preferência salva no navegador;
 - terminal discreto e referência visual sutil à aviação;
-- foto principal no Hero e registros de Google I/O Extended, Minas Summit e World Creativity Day;
 - projetos selecionados com contexto acadêmico identificado;
-- formação, eventos, voluntariado e certificações;
+- formação, Google I/O Extended, Minas Summit e voluntariado;
 - currículo em versão web pronta para impressão ou salvamento em PDF;
 - seção de certificações com acesso ao LinkedIn;
 - acessibilidade com navegação por teclado, foco visível e `prefers-reduced-motion`;
@@ -19,9 +18,7 @@ Portfólio profissional criado para reunir minha formação técnica em TI, proj
 
 ## Identidade visual
 
-A interface mantém o visual escuro original em azul e roxo, com efeitos moderados para preservar uma apresentação profissional.
-
-Como detalhe pessoal, o Hero possui uma rota de voo com um pequeno avião e o perfil inclui aviação entre os interesses, sem transformar o portfólio em um site temático.
+A interface usa uma paleta escura em azul e roxo e mantém os efeitos visuais de forma moderada. Como detalhe pessoal, o Hero possui uma rota de voo com um pequeno avião e o perfil inclui aviação entre os interesses, sem transformar o portfólio em um site temático.
 
 ## Tecnologias do portfólio
 
@@ -47,16 +44,13 @@ Portfolio/
 ├── README.md
 └── assets/
     ├── css/
-    │   ├── style.css
-    │   └── base.css
+    │   └── style.css
     ├── js/
-    │   ├── main.js
-    │   └── legacy-main.js
+    │   └── main.js
     └── images/
         ├── perfil.jpg
         ├── google-io.jpeg
         ├── minas-summit.jpeg
-        ├── world-creativity-day.jpg
         └── favicon.svg
 ```
 
