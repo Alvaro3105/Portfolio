@@ -1,0 +1,13 @@
+PORTFÓLIO — COMO ABRIR NO VS CODE
+
+1. Extraia este ZIP.
+2. Se quiser, renomeie a pasta.
+3. Abra a pasta inteira no VS Code.
+4. Opção A: clique com o botão direito em index.html > Open with Live Server.
+5. Opção B: abra o terminal nessa pasta e rode:
+
+   python -m http.server 8000
+
+   Depois abra: http://localhost:8000
+
+A pasta já contém HTML, CSS, JavaScript, fotos, currículo e certificados.
