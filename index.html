@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Álvaro Pires de Souza, estudante técnico em TI com projetos em desenvolvimento de software, APIs REST e banco de dados." />
+  <meta name="theme-color" content="#080b12" />
+  <meta property="og:title" content="Álvaro Pires de Souza — Portfólio" />
+  <meta property="og:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alvaro3105.github.io/Portfolio/" />
+  <meta property="og:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Álvaro Pires de Souza — Portfólio" />
+  <meta name="twitter:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
+  <meta name="twitter:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
+  <link rel="canonical" href="https://alvaro3105.github.io/Portfolio/" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <title>Álvaro Pires de Souza — Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Pular para o conteúdo</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a class="logo" href="#hero" data-i18n-aria="homeLabel" aria-label="Página inicial">alvaro<span>.dev</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre" data-i18n="navAbout">Sobre</a></li>
+        <li><a href="#competencias" data-i18n="navSkills">Competências</a></li>
+        <li><a href="#projetos" data-i18n="navProjects">Projetos</a></li>
+        <li><a href="#formacao" data-i18n="navEducation">Formação</a></li>
+        <li><a href="#experiencias" data-i18n="navJourney">Experiências</a></li>
+        <li><a href="#certificacoes" data-i18n="navCertificates">Certificações</a></li>
+        <li><a href="#contato" data-i18n="navContact">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-switch" id="langSwitch" type="button" data-i18n-aria="langSwitchLabel" aria-label="Alternar idioma">EN</button>
+        <button class="menu-btn" id="menuBtn" type="button" data-i18n-aria="menuOpen" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <svg class="flight-path" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="routeGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38BDF8" />
+            <stop offset="100%" stop-color="#8B5CF6" />
+          </linearGradient>
+        </defs>
+        <path id="flightRoute" class="route" d="M -50 650 Q 400 500 620 380 T 1250 120" fill="none" stroke="url(#routeGrad)" stroke-width="1.4" />
+        <circle cx="-50" cy="650" r="4" fill="#38BDF8" />
+        <circle cx="1250" cy="120" r="4" fill="#8B5CF6" />
+        <g class="plane" opacity=".85">
+          <path d="M -9 0 L 7 -4 L 2 0 L 7 4 Z" fill="url(#routeGrad)" />
+          <animateMotion id="planeMotion" dur="46s" repeatCount="indefinite" rotate="auto" begin="indefinite">
+            <mpath href="#flightRoute" />
+          </animateMotion>
+        </g>
+      </svg>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability" data-i18n="availability">Buscando primeira oportunidade em TI</div>
+          <h1>Álvaro Pires<br /><span class="gradient-text">de Souza</span></h1>
+          <p class="hero-role" data-i18n="heroRole">Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados</p>
+          <p class="hero-copy" data-i18n="heroCopy">Desenvolvo projetos acadêmicos com foco em APIs REST, aplicações CRUD, banco de dados e arquitetura de software. Estou construindo minha base em desenvolvimento, infraestrutura e segurança para iniciar minha carreira em tecnologia.</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projetos" data-i18n="viewProjects">Ver projetos</a>
+            <a class="btn secondary" href="https://github.com/Alvaro3105" target="_blank" rel="noopener" data-i18n="github">GitHub</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener" data-i18n="linkedin">LinkedIn</a>
+            <a class="btn secondary" href="assets/docs/Curriculo_Alvaro_Pires_de_Souza.pdf" target="_blank" rel="noopener" data-i18n="resume">Currículo</a>
+          </div>
+
+          <div class="terminal" data-i18n-aria="terminalLabel" aria-label="Tecnologias em destaque">
+            <div class="terminal-top" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="terminal-line"><span class="prompt">~/portfolio $ </span><span class="typed" id="typedText"></span><span aria-hidden="true">_</span></div>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap reveal">
+          <img class="hero-photo" src="assets/images/perfil.jpg" alt="Álvaro Pires de Souza" data-i18n-alt="heroPhotoAlt" width="800" height="600" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="sobre">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="aboutEyebrow">Perfil</span>
+            <h2 data-i18n="aboutTitle">Sobre mim</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel reveal">
+            <p data-i18n="aboutP1">Sou estudante do 3º ano do Ensino Médio Técnico em TI no COTEMIG, com conclusão prevista para dezembro de 2026.</p>
+            <p data-i18n="aboutP2">Desenvolvo projetos acadêmicos com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL, com foco em APIs REST, aplicações CRUD e arquitetura em camadas. Também tenho contato com Git e GitHub, Linux, redes de computadores, hardware e segurança da informação.</p>
+            <p data-i18n="aboutP3">Participei de ações voluntárias ligadas ao Code Club e ao World Creativity Day. Atualmente, busco minha primeira oportunidade profissional em Tecnologia da Informação, para aplicar o que aprendi, evoluir perto de profissionais mais experientes e continuar me desenvolvendo tecnicamente.</p>
+          </article>
+
+          <aside class="panel quick-facts reveal" data-i18n-aria="quickFactsLabel" aria-label="Informações rápidas">
+            <div class="fact"><span data-i18n="factEducation">Formação</span><span data-i18n="factEducationValue">Técnico em TI • COTEMIG</span></div>
+            <div class="fact"><span data-i18n="factConclusion">Conclusão</span><span data-i18n="factConclusionValue">Dezembro de 2026</span></div>
+            <div class="fact"><span data-i18n="factLocation">Localização</span><span data-i18n="factLocationValue">Nova Lima, MG</span></div>
+            <div class="fact"><span data-i18n="factEnglish">Inglês</span><span data-i18n="factEnglishValue">Básico • em desenvolvimento</span></div>
+            <div class="fact"><span data-i18n="factInterests">Interesses</span><span data-i18n="factInterestsValue">Tecnologia • Aviação • IA</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competencias">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="skillsEyebrow">Stack e fundamentos</span>
+            <h2 data-i18n="skillsTitle">Competências técnicas</h2>
+            <p class="section-intro" data-i18n="skillsIntro">Tecnologias que utilizo em projetos acadêmicos e fundamentos que venho aprofundando na formação técnica.</p>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><h3 data-i18n="langTitle">Linguagens e Web</h3><div class="pills"><span class="pill">Python</span><span class="pill">PHP</span><span class="pill">C#</span><span class="pill">JavaScript</span><span class="pill">HTML5</span><span class="pill">CSS3</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="backendTitle">Backend e APIs</h3><div class="pills"><span class="pill">Flask</span><span class="pill">Laravel</span><span class="pill">REST</span><span class="pill">MVC</span><span class="pill" data-i18n="skillOOP">POO</span><span class="pill">CRUD</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="dataTitle">Banco de Dados</h3><div class="pills"><span class="pill">SQL</span><span class="pill">MySQL</span><span class="pill">SQLAlchemy</span><span class="pill">PDO</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="toolsTitle">Ferramentas</h3><div class="pills"><span class="pill">Git</span><span class="pill">GitHub</span><span class="pill">Figma</span><span class="pill">Thunder Client</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="infraTitle">Infraestrutura</h3><div class="pills"><span class="pill" data-i18n="skillNetworks">Redes</span><span class="pill">Hardware</span><span class="pill">Linux</span><span class="pill">Packet Tracer</span></div></article>
+          <article class="skill-card reveal"><h3 data-i18n="securityTitle">Segurança</h3><div class="pills"><span class="pill" data-i18n="skillAuth">Autenticação</span><span class="pill" data-i18n="skillAuthz">Autorização</span><span class="pill">LGPD</span><span class="pill" data-i18n="skillCyberFund">Fundamentos de Cybersecurity</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projetos">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="projectsEyebrow">Código na prática</span>
+            <h2 data-i18n="projectsTitle">Projetos selecionados</h2>
+            <p class="section-intro" data-i18n="projectsIntro">Uma seleção curta de projetos que demonstra diferentes tecnologias e conceitos. Projetos acadêmicos são identificados de forma transparente.</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">01</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <h3 data-i18n="projHelpdeskTitle">Helpdesk API</h3>
+            <p data-i18n="helpdeskDesc">API REST para gerenciamento de usuários e chamados de suporte, com arquitetura em camadas, regras de negócio, filtros, estatísticas e testes automatizados.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>REST</span><span>unittest</span></div>
+            <a class="project-link" href="https://github.com/Alvaro3105/Heldesk" target="_blank" rel="noopener" data-i18n="repoLink">Abrir repositório →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">02</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <h3 data-i18n="projRetailTitle">Projeto CRUD Varejo</h3>
+            <p data-i18n="retailDesc">Aplicação desktop em C# e Windows Forms para gerenciar clientes e fornecedores por meio de operações CRUD.</p>
+            <div class="project-tags"><span>C#</span><span>Windows Forms</span><span>CRUD</span><span data-i18n="tagDatabase">Banco de Dados</span></div>
+            <a class="project-link" href="https://github.com/Alvaro3105/projeto-final-crud-varejo" target="_blank" rel="noopener" data-i18n="repoLink">Abrir repositório →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">03</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <h3 data-i18n="projQuestionsTitle">API REST de Questões</h3>
+            <p data-i18n="laravelDesc">API REST em Laravel para gerenciamento de questões, com rotas CRUD, Controllers, Models, migrations e persistência em MySQL.</p>
+            <div class="project-tags"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>MVC</span><span>REST</span></div>
+            <a class="project-link" href="https://github.com/Alvaro3105/atividade_integrada" target="_blank" rel="noopener" data-i18n="repoLink">Abrir repositório →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">04</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <h3 data-i18n="projVehicleTitle">CRUD de Veículos com PHP &amp; PDO</h3>
+            <p data-i18n="pdoDesc">Aplicação web em PHP com PDO e MySQL para praticar operações CRUD, consultas parametrizadas e persistência de dados.</p>
+            <div class="project-tags"><span>PHP</span><span>PDO</span><span>MySQL</span><span>CRUD</span></div>
+            <a class="project-link" href="https://github.com/Alvaro3105/CRUD-em-PHP-PDO" target="_blank" rel="noopener" data-i18n="repoLink">Abrir repositório →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacao">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="eyebrow" data-i18n="educationEyebrow">Formação</span><h2 data-i18n="educationTitle">Formação acadêmica</h2></div></div>
+        <article class="timeline-item reveal">
+          <div class="timeline-date" data-i18n="educationDate">2024 — 2026</div>
+          <h3 data-i18n="educationName">Ensino Médio Técnico em TI</h3>
+          <p><strong data-i18n="educationSchool">COTEMIG — Colégio e Faculdade</strong></p>
+          <p data-i18n="educationDesc">Formação técnica com estudos em desenvolvimento de software, banco de dados, desenvolvimento web, redes, hardware e segurança da informação.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="experiencias">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="journeyEyebrow">Além do código</span>
+            <h2 data-i18n="journeyTitle">Comunidade e experiências</h2>
+            <p class="section-intro" data-i18n="journeyIntro">Participações que complementam minha formação técnica com contato com comunidade, criatividade e tecnologia.</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <img class="timeline-photo google-photo" src="assets/images/google-io.jpg" alt="Álvaro no Google I/O Extended Belo Horizonte" data-i18n-alt="googleAlt" loading="lazy" width="760" height="1351" />
+            <div class="timeline-date" data-i18n="googleDate">13 de junho de 2026</div>
+            <h3 data-i18n="googleTitle">Google I/O Extended — Belo Horizonte</h3>
+            <p data-i18n="googleDesc">Participação em evento da comunidade Google Developer Group Belo Horizonte, com programação voltada a tecnologia e desenvolvimento.</p>
+            <a class="cert-view" href="assets/docs/certificados/google-io-extended-participacao.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a>
+          </article>
+
+          <article class="timeline-item reveal">
+            <img class="timeline-photo minas-photo" src="assets/images/minas-summit.jpg" alt="Álvaro no Minas Summit" data-i18n-alt="minasAlt" loading="lazy" width="497" height="884" />
+            <div class="timeline-date" data-i18n="minasDate">17 e 18 de junho de 2026</div>
+            <h3 data-i18n="minasTitle">Minas Summit</h3>
+            <p data-i18n="minasDesc">Participei de palestras sobre IA e tecnologia, incluindo "IA Aplicada ao Agronegócio", com Giselle Couto Falcão, e "O Fim do Código?", com Otaviano Silvério.</p>
+          </article>
+
+          <article class="timeline-item reveal">
+            <img class="timeline-photo wcd-photo" src="assets/images/world-creativity-day.jpg" alt="Álvaro em ação voluntária no World Creativity Day" data-i18n-alt="wcdAlt" loading="lazy" width="760" height="1351" />
+            <div class="timeline-date" data-i18n="volunteerDate">Voluntariado</div>
+            <h3 data-i18n="volunteerTitle">Code Club e World Creativity Day</h3>
+            <p data-i18n="volunteerDesc">Participação em ações voluntárias ligadas a tecnologia, educação e criatividade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certificacoes">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="certificatesEyebrow">Aprendizado contínuo</span>
+            <h2 data-i18n="certificatesTitle">Cursos e certificações</h2>
+            <p class="section-intro" data-i18n="certificatesIntro">Alguns dos cursos que complementam minha formação técnica.</p>
+          </div>
+        </div>
+
+        <div class="certificates-grid" id="certificatesGrid">
+          <article class="certificate-card reveal"><h3 data-i18n="certCyber">Introdução à Cibersegurança</h3><p data-i18n="cisco">Cisco Networking Academy</p></article>
+          <article class="certificate-card reveal"><h3 data-i18n="certAI">Introdução à IA Moderna</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-introducao-ia-moderna.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+          <article class="certificate-card reveal"><h3 data-i18n="certHardware">Fundamentos do Hardware do Computador</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-fundamentos-hardware.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+          <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certPacket">Começando com Cisco Packet Tracer</h3><p data-i18n="cisco">Cisco Networking Academy</p></article>
+          <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certWeb">Crie um Site Simples usando HTML, CSS e JavaScript</h3><p data-i18n="bradesco">Fundação Bradesco • 2026</p><a class="cert-view" href="assets/docs/certificados/fundacao-bradesco-site-simples.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+          <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certDigital">Conscientização Digital</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-conscientizacao-digital.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+          <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certDevices">Using Computer and Mobile Devices</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-using-computer-mobile-devices.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+          <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certCoke">Coletivo Coca-Cola Jovem</h3><p data-i18n="coke">Coletivo Coca-Cola • 2026</p><a class="cert-view" href="assets/docs/certificados/coletivo-coca-cola-jovem.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
+        </div>
+        <div class="cert-actions reveal"><button type="button" class="text-button" id="certToggle" aria-expanded="false" aria-controls="certificatesGrid" data-i18n="showAll">Ver todos</button></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contato">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="contactEyebrow">Contato</span>
+            <h2 data-i18n="contactTitle">Vamos conversar</h2>
+            <p class="section-intro" data-i18n="contactIntro">Estou aberto a oportunidades de estágio, aprendizagem e posições de entrada em Tecnologia da Informação.</p>
+          </div>
+        </div>
+
+        <div class="contact-wrap">
+          <article class="contact-card reveal">
+            <h3 data-i18n="contactCardTitle">Primeira oportunidade em TI</h3>
+            <p data-i18n="contactCardText">Para falar comigo sobre oportunidades, projetos ou tecnologia, use LinkedIn, GitHub ou e-mail.</p>
+          </article>
+          <aside class="contact-card reveal">
+            <h3 data-i18n="contactLinksTitle">Links profissionais</h3>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener"><span>LinkedIn</span><span>↗</span></a>
+              <a href="https://github.com/Alvaro3105" target="_blank" rel="noopener"><span>GitHub</span><span>↗</span></a>
+              <a href="mailto:ap4321316@gmail.com"><span data-i18n="contactEmailLabel">E-mail</span><span>↗</span></a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Álvaro Pires de Souza</span>
+      <span class="footer-tech"><span data-i18n="footer">Portfólio desenvolvido com HTML, CSS e JavaScript.</span> <span class="footer-plane" aria-hidden="true">✈</span></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
