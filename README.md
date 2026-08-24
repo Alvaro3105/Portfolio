@@ -1,16 +1,16 @@
 # Álvaro Pires de Souza — Portfólio
 
-Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia, com foco na busca pela minha primeira oportunidade profissional na área.
+Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia.
 
-## 🌐 Portfólio online
+## 🌐 Acesse online
 
-**Acesse:** https://alvaro3105.github.io/Portfolio/
+**Portfólio:** https://alvaro3105.github.io/Portfolio/
 
 ## Sobre o projeto
 
-O site reúne em um único lugar as informações mais relevantes do meu perfil profissional. A proposta é apresentar de forma objetiva minha formação, projetos acadêmicos, conhecimentos técnicos, eventos, voluntariado e certificações.
+A proposta do site é reunir em um único lugar as informações mais relevantes do meu perfil profissional, com foco na busca pela primeira oportunidade em Tecnologia da Informação.
 
-A identidade visual segue uma direção dark em azul e roxo, com animações discretas e um pequeno toque de aviação como elemento de personalidade, sem competir com o conteúdo técnico.
+O design segue uma identidade visual escura e moderna, com azul e roxo como cores de destaque. O projeto prioriza leitura, responsividade, acessibilidade e uma apresentação profissional, evitando excesso de efeitos visuais.
 
 ## Principais recursos
 
@@ -18,16 +18,16 @@ A identidade visual segue uma direção dark em azul e roxo, com animações dis
 - navegação fixa e menu adaptado para dispositivos móveis;
 - versão em Português e Inglês com preferência salva no navegador;
 - animação de terminal discreta;
-- animações de entrada com `IntersectionObserver`;
+- animações de entrada utilizando `IntersectionObserver`;
 - suporte a `prefers-reduced-motion`;
-- projetos selecionados com contexto acadêmico identificado;
-- formação, eventos, comunidade e voluntariado;
-- certificações com acesso aos PDFs disponíveis;
-- currículo em PDF;
-- navegação por teclado e `:focus-visible`;
-- metadados de SEO, Open Graph, Twitter Card e canonical;
-- publicação no GitHub Pages;
-- detalhe visual de aviação com rota de voo, pequeno avião e referências discretas no layout.
+- seção de projetos selecionados;
+- seção de formação, comunidade, voluntariado e certificações;
+- botão "Ver todos" para cursos e certificações, com link direto para o PDF de cada certificado;
+- currículo em PDF disponível para download, com link para o próprio portfólio;
+- foco visível (`:focus-visible`) para navegação por teclado;
+- favicon, canonical e Open Graph/Twitter Card configurados para SEO;
+- links diretos para GitHub, LinkedIn e e-mail;
+- um toque discreto de aviação: rota de voo pontilhada, pequeno avião animado no Hero, interesse citado em "Interesses" e ✈ no rodapé.
 
 ## Tecnologias
 
@@ -36,8 +36,6 @@ A identidade visual segue uma direção dark em azul e roxo, com animações dis
 - JavaScript Vanilla
 - Git e GitHub
 - GitHub Pages
-
-O projeto foi mantido sem framework JavaScript para preservar simplicidade, desempenho e facilidade de manutenção.
 
 ## Estrutura
 
@@ -68,15 +66,6 @@ Portfolio/
 - **API REST de Questões** — PHP, Laravel e MySQL;
 - **CRUD de Veículos** — PHP, PDO e MySQL.
 
-Todos são apresentados de acordo com seu contexto real e os projetos acadêmicos são identificados como tal.
-
-## Fotos utilizadas
-
-- `perfil.jpg` — foto principal no Hero;
-- `google-io.jpg` — Google I/O Extended Belo Horizonte;
-- `minas-summit.jpg` — Minas Summit;
-- `world-creativity-day.jpg` — registro de voluntariado no World Creativity Day.
-
 ## Executar localmente
 
 ```bash
@@ -91,6 +80,6 @@ Depois acesse `http://localhost:8000`.
 
 **Álvaro Pires de Souza**
 
-- Portfólio: https://alvaro3105.github.io/Portfolio/
+- Portfólio: [alvaro3105.github.io/Portfolio](https://alvaro3105.github.io/Portfolio/)
 - GitHub: [Alvaro3105](https://github.com/Alvaro3105)
 - LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)
