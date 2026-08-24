@@ -1,12 +1,16 @@
 # Álvaro Pires de Souza — Portfólio
 
-Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia.
+Portfólio pessoal desenvolvido para apresentar minha formação técnica em TI, projetos, competências, certificações e experiências ligadas à tecnologia, com foco na busca pela minha primeira oportunidade profissional na área.
+
+## 🌐 Portfólio online
+
+**Acesse:** https://alvaro3105.github.io/Portfolio/
 
 ## Sobre o projeto
 
-A proposta do site é reunir em um único lugar as informações mais relevantes do meu perfil profissional, com foco na busca pela primeira oportunidade em Tecnologia da Informação.
+O site reúne em um único lugar as informações mais relevantes do meu perfil profissional. A proposta é apresentar de forma objetiva minha formação, projetos acadêmicos, conhecimentos técnicos, eventos, voluntariado e certificações.
 
-O design segue uma identidade visual escura e moderna, com azul e roxo como cores de destaque. O projeto prioriza leitura, responsividade, acessibilidade e uma apresentação profissional, evitando excesso de efeitos visuais.
+A identidade visual segue uma direção dark em azul e roxo, com animações discretas e um pequeno toque de aviação como elemento de personalidade, sem competir com o conteúdo técnico.
 
 ## Principais recursos
 
@@ -14,16 +18,16 @@ O design segue uma identidade visual escura e moderna, com azul e roxo como core
 - navegação fixa e menu adaptado para dispositivos móveis;
 - versão em Português e Inglês com preferência salva no navegador;
 - animação de terminal discreta;
-- animações de entrada utilizando `IntersectionObserver`;
+- animações de entrada com `IntersectionObserver`;
 - suporte a `prefers-reduced-motion`;
-- seção de projetos selecionados;
-- seção de formação, comunidade, voluntariado e certificações;
-- botão "Ver todos" para cursos e certificações, com link direto para o PDF de cada certificado;
-- currículo em PDF disponível para download;
-- foco visível (`:focus-visible`) para navegação por teclado;
-- favicon, canonical e Open Graph/Twitter Card configurados para SEO;
-- links diretos para GitHub, LinkedIn e e-mail;
-- um toque discreto de aviação (interesse pessoal): uma rota de voo pontilhada com um pequeno avião animado no fundo do Hero, o interesse citado em "Interesses" e um ✈ pequeno no rodapé — tudo decorativo e sutil, sem disputar espaço com o conteúdo técnico.
+- projetos selecionados com contexto acadêmico identificado;
+- formação, eventos, comunidade e voluntariado;
+- certificações com acesso aos PDFs disponíveis;
+- currículo em PDF;
+- navegação por teclado e `:focus-visible`;
+- metadados de SEO, Open Graph, Twitter Card e canonical;
+- publicação no GitHub Pages;
+- detalhe visual de aviação com rota de voo, pequeno avião e referências discretas no layout.
 
 ## Tecnologias
 
@@ -31,9 +35,9 @@ O design segue uma identidade visual escura e moderna, com azul e roxo como core
 - CSS3
 - JavaScript Vanilla
 - Git e GitHub
-- compatível com publicação no GitHub Pages
+- GitHub Pages
 
-Não foi utilizado framework JavaScript porque a complexidade atual do projeto não exige React, Vue ou outra biblioteca. A proposta é manter o portfólio simples, rápido e fácil de manter.
+O projeto foi mantido sem framework JavaScript para preservar simplicidade, desempenho e facilidade de manutenção.
 
 ## Estrutura
 
@@ -51,13 +55,6 @@ Portfolio/
 │   ├── docs/
 │   │   ├── Curriculo_Alvaro_Pires_de_Souza.pdf
 │   │   └── certificados/
-│   │       ├── cisco-fundamentos-hardware.pdf
-│   │       ├── cisco-conscientizacao-digital.pdf
-│   │       ├── cisco-introducao-ia-moderna.pdf
-│   │       ├── cisco-using-computer-mobile-devices.pdf
-│   │       ├── fundacao-bradesco-site-simples.pdf
-│   │       ├── coletivo-coca-cola-jovem.pdf
-│   │       └── google-io-extended-participacao.pdf
 │   └── js/
 │       └── main.js
 ├── index.html
@@ -66,49 +63,34 @@ Portfolio/
 
 ## Projetos apresentados
 
-O portfólio destaca atualmente:
-
 - **Helpdesk API** — Python, Flask, SQLAlchemy e API REST;
 - **Projeto CRUD Varejo** — C# e Windows Forms;
 - **API REST de Questões** — PHP, Laravel e MySQL;
 - **CRUD de Veículos** — PHP, PDO e MySQL.
 
-Todos são apresentados de acordo com seu contexto real, incluindo a identificação de projetos acadêmicos.
+Todos são apresentados de acordo com seu contexto real e os projetos acadêmicos são identificados como tal.
 
-## Executar localmente
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/Alvaro3105/Portfolio.git
-cd Portfolio
-```
-
-Depois abra `index.html` no navegador ou inicie um servidor local:
-
-```bash
-python -m http.server 8000
-```
-
-Acesse:
-
-```text
-http://localhost:8000
-```
-
-## Contato
-
-**Álvaro Pires de Souza**
-
-- GitHub: [Alvaro3105](https://github.com/Alvaro3105)
-- LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)
-
-
-## Fotos desta versão
+## Fotos utilizadas
 
 - `perfil.jpg` — foto principal no Hero;
 - `google-io.jpg` — Google I/O Extended Belo Horizonte;
 - `minas-summit.jpg` — Minas Summit;
 - `world-creativity-day.jpg` — registro de voluntariado no World Creativity Day.
 
-Esta pasta pode ser aberta diretamente no VS Code. Para visualizar com caminhos locais funcionando corretamente, use a extensão Live Server ou rode `python -m http.server 8000` na raiz do projeto.
+## Executar localmente
+
+```bash
+git clone https://github.com/Alvaro3105/Portfolio.git
+cd Portfolio
+python -m http.server 8000
+```
+
+Depois acesse `http://localhost:8000`.
+
+## Contato
+
+**Álvaro Pires de Souza**
+
+- Portfólio: https://alvaro3105.github.io/Portfolio/
+- GitHub: [Alvaro3105](https://github.com/Alvaro3105)
+- LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)
