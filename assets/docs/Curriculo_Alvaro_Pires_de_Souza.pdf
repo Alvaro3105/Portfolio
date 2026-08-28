@@ -16,79 +16,84 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 4248 >>
+<< /Length 4637 >>
 stream
-BT /F2 18 Tf 0.070 0.200 0.360 rg 150 800 Td (\301LVARO PIRES DE SOUZA) Tj ET
-BT /F2 9.6 Tf 0.280 0.330 0.410 rg 116 784 Td (Estudante T\351cnico em TI | Desenvolvimento de Software \225 Banco de Dados) Tj ET
-BT /F1 8.2 Tf 0.390 0.460 0.550 rg 158 769 Td (Nova Lima, MG  \225  ap4321316@gmail.com  \225  LinkedIn  \225  GitHub) Tj ET
-BT /F2 8.5 Tf 0.090 0.270 0.510 rg 203 755 Td (Portf\363lio: alvaro3105.github.io/Portfolio/) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 732 Td (RESUMO PROFISSIONAL) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 728 m 555 728 l S
-BT /F1 8.05 Tf 0.070 0.100 0.160 rg 40 713 Td (Estudante do 3\272 ano do Ensino M\351dio T\351cnico em TI no COTEMIG, com conclus\343o prevista para dezembro de 2026.) Tj ET
-BT /F1 8.05 Tf 0.070 0.100 0.160 rg 40 703 Td (Desenvolvo projetos acad\352micos e pessoais com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL, com foco) Tj ET
-BT /F1 8.05 Tf 0.070 0.100 0.160 rg 40 693 Td (em APIs REST, CRUD, banco de dados e arquitetura de aplica\347\365es. Tamb\351m possuo conhecimentos em Git/GitHub,) Tj ET
-BT /F1 8.05 Tf 0.070 0.100 0.160 rg 40 683 Td (Linux, redes, hardware e seguran\347a da informa\347\343o. Busco minha primeira oportunidade profissional em Tecnologia) Tj ET
-BT /F1 8.05 Tf 0.070 0.100 0.160 rg 40 673 Td (da Informa\347\343o.) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 652 Td (PROJETOS) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 648 m 555 648 l S
-BT /F2 8.0 Tf 0.070 0.100 0.160 rg 40 633 Td (Helpdesk API \227 Python, Flask e SQLAlchemy | Projeto acad\352mico) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 622 Td (\225 API REST para gerenciamento de usu\341rios e chamados, organizada em Controllers, Services, Repositories e) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 613 Td (Models, com CRUD, valida\347\365es, regras de neg\363cio, filtros, estat\355sticas e testes automatizados.) Tj ET
-BT /F2 8.0 Tf 0.070 0.100 0.160 rg 40 602 Td (Portf\363lio Profissional \227 HTML5, CSS3 e JavaScript | Projeto pessoal) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 591 Td (\225 Site responsivo e bil\355ngue \(PT/EN\), com acessibilidade, SEO, curr\355culo, certifica\347\365es e publica\347\343o no) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 582 Td (GitHub Pages.) Tj ET
-BT /F2 8.0 Tf 0.070 0.100 0.160 rg 40 571 Td (API REST de Quest\365es \227 PHP, Laravel e MySQL | Projeto acad\352mico) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 560 Td (\225 CRUD de quest\365es com GET, POST, PUT, PATCH e DELETE, utilizando MVC, migrations e persist\352ncia em MySQL.) Tj ET
-BT /F2 8.0 Tf 0.070 0.100 0.160 rg 40 549 Td (Projeto CRUD Varejo \227 C# e Windows Forms | Projeto acad\352mico) Tj ET
-BT /F1 7.75 Tf 0.070 0.100 0.160 rg 50 538 Td (\225 Aplica\347\343o desktop para cadastro, consulta, edi\347\343o e exclus\343o de clientes e fornecedores.) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 517 Td (COMPET\312NCIAS T\311CNICAS) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 513 m 555 513 l S
-BT /F1 7.85 Tf 0.070 0.100 0.160 rg 40 498 Td (Linguagens e Web: Python, PHP, C#, JavaScript, HTML5, CSS3 e SQL.) Tj ET
-BT /F1 7.85 Tf 0.070 0.100 0.160 rg 40 487 Td (Backend e Banco: Flask, Laravel, APIs REST, MVC, POO, CRUD, arquitetura em camadas e MySQL.) Tj ET
-BT /F1 7.85 Tf 0.070 0.100 0.160 rg 40 476 Td (Ferramentas: Git, GitHub, Figma, Thunder Client e Linux.) Tj ET
-BT /F1 7.85 Tf 0.070 0.100 0.160 rg 40 465 Td (Fundamentos de TI: Redes de computadores, Cisco Packet Tracer, hardware, manuten\347\343o e seguran\347a da informa\347\343o.) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 444 Td (FORMA\307\303O) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 440 m 555 440 l S
-BT /F2 8.0 Tf 0.070 0.100 0.160 rg 40 425 Td (COTEMIG \227 Ensino M\351dio T\351cnico em TI | 2024\2272026) Tj ET
-BT /F1 7.8 Tf 0.070 0.100 0.160 rg 40 414 Td (3\272 ano em andamento \225 Conclus\343o prevista: dezembro de 2026) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 393 Td (CURSOS E CERTIFICA\307\325ES) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 389 m 555 389 l S
-BT /F1 7.7 Tf 0.070 0.100 0.160 rg 40 374 Td (Cisco Networking Academy: Introdu\347\343o \340 Ciberseguran\347a; Introdu\347\343o \340 IA Moderna; Fundamentos do Hardware do) Tj ET
-BT /F1 7.7 Tf 0.070 0.100 0.160 rg 40 365 Td (Computador; Cisco Packet Tracer; Conscientiza\347\343o Digital; Using Computer and Mobile Devices.) Tj ET
-BT /F1 7.7 Tf 0.070 0.100 0.160 rg 40 354 Td (Funda\347\343o Bradesco: Crie um Site Simples usando HTML, CSS e JavaScript. Coletivo Coca-Cola Jovem: desenvolvimento) Tj ET
-BT /F1 7.7 Tf 0.070 0.100 0.160 rg 40 345 Td (profissional.) Tj ET
-BT /F2 9.6 Tf 0.090 0.270 0.510 rg 40 324 Td (VOLUNTARIADO E IDIOMAS) Tj ET
-0.790 0.840 0.900 RG 0.8 w 40 320 m 555 320 l S
-BT /F1 7.8 Tf 0.070 0.100 0.160 rg 40 305 Td (Voluntariado: a\347\365es ligadas ao Code Club e ao World Creativity Day. Ingl\352s: b\341sico, em desenvolvimento.) Tj ET
+BT /F2 18 Tf .07 .20 .36 rg 153 804 Td (\301LVARO PIRES DE SOUZA) Tj ET
+BT /F2 10 Tf .28 .35 .45 rg 125 785 Td (Estudante T\351cnico em TI | Desenvolvimento de Software | Banco de Dados) Tj ET
+BT /F1 8.6 Tf .18 .18 .20 rg 133 770 Td (Nova Lima, MG | ap4321316@gmail.com | LinkedIn | GitHub) Tj ET
+BT /F2 8.8 Tf .08 .28 .52 rg 187 756 Td (Portf\363lio: alvaro3105.github.io/Portfolio/) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 731 Td (RESUMO PROFISSIONAL) Tj ET
+.78 .84 .91 RG .7 w 42 727 m 553 727 l S
+BT /F1 8.7 Tf 0 0 0 rg 42 713 Td (Estudante do 3\272 ano do Ensino M\351dio T\351cnico em TI no COTEMIG, com conclus\343o prevista para dezembro de 2026.) Tj ET
+BT /F1 8.7 Tf 0 0 0 rg 42 702 Td (Desenvolvo projetos acad\352micos e pessoais com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL, com) Tj ET
+BT /F1 8.7 Tf 0 0 0 rg 42 691 Td (foco em APIs REST, CRUD, banco de dados e arquitetura de aplica\347\365es. Tamb\351m possuo conhecimentos em) Tj ET
+BT /F1 8.7 Tf 0 0 0 rg 42 680 Td (Git/GitHub, Linux, redes, hardware e seguran\347a da informa\347\343o. Busco minha primeira oportunidade profissional) Tj ET
+BT /F1 8.7 Tf 0 0 0 rg 42 669 Td (em Tecnologia da Informa\347\343o.) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 654 Td (PROJETOS) Tj ET
+.78 .84 .91 RG .7 w 42 650 m 553 650 l S
+BT /F2 8.7 Tf 0 0 0 rg 42 636 Td (Helpdesk API - Python, Flask e SQLAlchemy | Projeto acad\352mico) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 625 Td (- API REST para usu\341rios e chamados, organizada em Controllers, Services, Repositories e Models, com) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 615 Td (CRUD, valida\347\365es, regras de neg\363cio, filtros, estat\355sticas e testes automatizados.) Tj ET
+BT /F2 8.7 Tf 0 0 0 rg 42 603 Td (Portf\363lio Profissional - HTML5, CSS3 e JavaScript | Projeto pessoal) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 592 Td (- Site responsivo e bil\355ngue \(PT/EN\), com acessibilidade, SEO, curr\355culo, certifica\347\365es, GitHub Pages e) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 582 Td (identidade visual pr\363pria.) Tj ET
+BT /F2 8.7 Tf 0 0 0 rg 42 570 Td (API REST de Quest\365es - PHP, Laravel e MySQL | Projeto acad\352mico) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 559 Td (- CRUD de quest\365es com GET, POST, PUT, PATCH e DELETE, utilizando MVC, migrations e persist\352ncia em) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 549 Td (MySQL.) Tj ET
+BT /F2 8.7 Tf 0 0 0 rg 42 537 Td (Projeto CRUD Varejo - C# e Windows Forms | Projeto acad\352mico) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 526 Td (- Aplica\347\343o desktop para cadastro, consulta, edi\347\343o e exclus\343o de clientes e fornecedores com) Tj ET
+BT /F1 8.1 Tf 0 0 0 rg 52 516 Td (persist\352ncia em MySQL.) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 504 Td (COMPET\312NCIAS T\311CNICAS) Tj ET
+.78 .84 .91 RG .7 w 42 500 m 553 500 l S
+BT /F1 8.3 Tf 0 0 0 rg 42 486 Td (Linguagens e Web: Python, PHP, C#, JavaScript, HTML5, CSS3 e SQL.) Tj ET
+BT /F1 8.3 Tf 0 0 0 rg 42 475 Td (Backend e Banco: Flask, Laravel, APIs REST, MVC, POO, CRUD, arquitetura em camadas e MySQL.) Tj ET
+BT /F1 8.3 Tf 0 0 0 rg 42 464 Td (Ferramentas: Git, GitHub, Figma, Thunder Client e Linux.) Tj ET
+BT /F1 8.3 Tf 0 0 0 rg 42 453 Td (Fundamentos de TI: Redes de computadores, Cisco Packet Tracer, hardware, manuten\347\343o e seguran\347a da informa\347\343o.) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 440 Td (FORMA\307\303O) Tj ET
+.78 .84 .91 RG .7 w 42 436 m 553 436 l S
+BT /F2 8.7 Tf 0 0 0 rg 42 422 Td (COTEMIG - Ensino M\351dio T\351cnico em TI | 2024-2026) Tj ET
+BT /F1 8.2 Tf 0 0 0 rg 42 411 Td (3\272 ano em andamento | Conclus\343o prevista: dezembro de 2026) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 396 Td (EVENTOS E COMUNIDADE) Tj ET
+.78 .84 .91 RG .7 w 42 392 m 553 392 l S
+BT /F1 8.2 Tf 0 0 0 rg 42 378 Td (Google I/O Extended - Belo Horizonte \(13/06/2026, 4h\) | Minas Summit \(17 e 18/06/2026\) | Voluntariado em) Tj ET
+BT /F1 8.2 Tf 0 0 0 rg 42 368 Td (a\347\365es ligadas ao Code Club e ao World Creativity Day.) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 354 Td (CURSOS E CERTIFICA\307\325ES) Tj ET
+.78 .84 .91 RG .7 w 42 350 m 553 350 l S
+BT /F1 8 Tf 0 0 0 rg 42 336 Td (Cisco Networking Academy: Introdu\347\343o \340 Ciberseguran\347a; Introdu\347\343o \340 IA Moderna; Fundamentos do Hardware do) Tj ET
+BT /F1 8 Tf 0 0 0 rg 42 326 Td (Computador; Cisco Packet Tracer. Funda\347\343o Bradesco: Crie um Site Simples usando HTML, CSS e JavaScript. Coletivo) Tj ET
+BT /F1 8 Tf 0 0 0 rg 42 316 Td (Coca-Cola Jovem: desenvolvimento profissional.) Tj ET
+BT /F2 10 Tf .08 .28 .52 rg 42 302 Td (IDIOMAS) Tj ET
+.78 .84 .91 RG .7 w 42 298 m 553 298 l S
+BT /F1 8.2 Tf 0 0 0 rg 42 284 Td (Ingl\352s b\341sico - em desenvolvimento.) Tj ET
 endstream
 endobj
 7 0 obj
-<< /Type /Annot /Subtype /Link /Rect [244 764 346 777] /Border [0 0 0] /A << /S /URI /URI (mailto:ap4321316@gmail.com) >> >>
+<< /Type /Annot /Subtype /Link /Rect [188 751 366 765] /Border [0 0 0] /A << /S /URI /URI (https://alvaro3105.github.io/Portfolio/) >> >>
 endobj
 8 0 obj
-<< /Type /Annot /Subtype /Link /Rect [363 764 408 777] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/alvaro-pires-de-souza/) >> >>
+<< /Type /Annot /Subtype /Link /Rect [302 765 345 778] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/alvaro-pires-de-souza/) >> >>
 endobj
 9 0 obj
-<< /Type /Annot /Subtype /Link /Rect [420 764 457 777] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Alvaro3105) >> >>
+<< /Type /Annot /Subtype /Link /Rect [360 765 400 778] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Alvaro3105) >> >>
 endobj
 10 0 obj
-<< /Type /Annot /Subtype /Link /Rect [252 749 405 763] /Border [0 0 0] /A << /S /URI /URI (https://alvaro3105.github.io/Portfolio/) >> >>
+<< /Type /Annot /Subtype /Link /Rect [172 765 286 778] /Border [0 0 0] /A << /S /URI /URI (mailto:ap4321316@gmail.com) >> >>
 endobj
 xref
 0 11
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000121 00000 n 
-0000000294 00000 n 
-0000000391 00000 n 
-0000000493 00000 n 
-0000004794 00000 n 
-0000004937 00000 n 
-0000005112 00000 n 
-0000005257 00000 n 
+0000000016 00000 n 
+0000000065 00000 n 
+0000000122 00000 n 
+0000000293 00000 n 
+0000000390 00000 n 
+0000000492 00000 n 
+0000005180 00000 n 
+0000005333 00000 n 
+0000005497 00000 n 
+0000005640 00000 n 
 trailer
 << /Size 11 /Root 1 0 R >>
 startxref
-5410
+5781
 %%EOF
