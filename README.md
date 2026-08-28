@@ -18,12 +18,15 @@ O design segue uma identidade visual escura e moderna, com azul e roxo como core
 - navegação fixa e menu adaptado para dispositivos móveis;
 - versão em Português e Inglês com preferência salva no navegador;
 - animação de terminal discreta;
+- diagrama visual da arquitetura do Helpdesk (Controller → Service → Repository → Model);
 - animações de entrada utilizando `IntersectionObserver`;
 - suporte a `prefers-reduced-motion`;
 - seção de projetos selecionados;
 - seção de formação, comunidade, voluntariado e certificações;
 - botão "Ver todos" para cursos e certificações, com link direto para o PDF de cada certificado;
 - currículo em PDF disponível para download, com link para o próprio portfólio;
+- imagens de eventos com carregamento tardio (`loading="lazy"`) e prioridade de carregamento para a foto principal;
+- breakpoint de navegação ajustado para tablets e telas intermediárias;
 - foco visível (`:focus-visible`) para navegação por teclado;
 - favicon, canonical e Open Graph/Twitter Card configurados para SEO;
 - links diretos para GitHub, LinkedIn e e-mail;
