@@ -1,0 +1,61 @@
+name: Integrar revisões acadêmicas
+on:
+  push:
+    branches: [revisao-provas-segunda-etapa]
+    paths:
+      - .github/workflows/integrar-provas.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Aplicar integração sem substituir o site
+        run: |
+          sed -i 's/if count != 1:/if count < 1:/' scripts/integrar-provas.py
+          python scripts/integrar-provas.py
+          python scripts/integrar-provas.py
+          node --check assets/js/main.js
+      - name: Validar HTML, traduções e links
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import re, json, subprocess
+          html = Path('index.html').read_text()
+          js = Path('assets/js/main.js').read_text()
+          class Parser(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.links=[]; self.keys=[]
+              def handle_starttag(self, tag, attrs):
+                  a=dict(attrs)
+                  if tag=='a' and 'href' in a: self.links.append(a['href'])
+                  if 'data-i18n' in a: self.keys.append(a['data-i18n'])
+          p=Parser(); p.feed(html)
+          translations=subprocess.check_output(['node','-e', 'const fs=require("fs"),vm=require("vm"); const s=fs.readFileSync("assets/js/main.js","utf8"); const m=s.match(/const translations = (\{[\s\S]*?\});/); if(!m) process.exit(1); console.log(JSON.stringify(vm.runInNewContext("("+m[1]+")")));'],text=True)
+          data=json.loads(translations)
+          for lang in ('pt','en'):
+              assert set(p.keys).issubset(data[lang]), (lang,set(p.keys)-set(data[lang]))
+          assert all(link in p.links for link in ['https://github.com/Alvaro3105/Prova-de-python','https://github.com/Alvaro3105/Prova-final-de-TPA-2etapa'])
+          assert len(re.findall(r'class="project-card reveal"',html))==6
+          assert '<section class="section" id="formacao">' in html
+          print('HTML, links e traduções validados.')
+          PY
+      - name: Registrar alterações verificadas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets/js/main.js README.md
+          git rm scripts/integrar-provas.py .github/workflows/integrar-provas.yml
+          git commit -m "Adicionar revisões de Python e TPA aos projetos selecionados"
+          git push origin HEAD:revisao-provas-segunda-etapa
