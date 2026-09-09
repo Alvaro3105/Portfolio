@@ -86,3 +86,12 @@ Depois acesse `http://localhost:8000`.
 - Portfólio: [alvaro3105.github.io/Portfolio](https://alvaro3105.github.io/Portfolio/)
 - GitHub: [Alvaro3105](https://github.com/Alvaro3105)
 - LinkedIn: [alvaro-pires-de-souza](https://www.linkedin.com/in/alvaro-pires-de-souza/)
+
+## Revisões acadêmicas da 2ª etapa
+
+As duas provas foram revisadas depois da avaliação, com apoio do ChatGPT. A documentação diferencia a entrega original das alterações posteriores.
+
+- [Python — MVC, Service e Repository](https://github.com/Alvaro3105/Prova-de-python): refatoração de uma API Flask, preservação dos endpoints e testes de regressão.
+- [TPA — API REST de Pedidos](https://github.com/Alvaro3105/Prova-final-de-TPA-2etapa): CRUD Laravel com Eloquent, validação, migrations e testes de integração.
+
+Os repositórios são projetos acadêmicos de estudo, não experiências profissionais nem aplicações publicadas em produção.
