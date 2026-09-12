@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfólio de Álvaro Pires de Souza, estudante técnico em TI com projetos em desenvolvimento de software, APIs REST e banco de dados." />
+  <meta name="description" content="Portfólio de Álvaro Pires de Souza, estudante de TI e desenvolvedor em formação, com projetos em Python, APIs e bancos de dados." />
   <meta name="theme-color" content="#080b12" />
   <meta property="og:title" content="Álvaro Pires de Souza — Portfólio" />
-  <meta property="og:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
+  <meta property="og:description" content="Estudante de TI e desenvolvedor em formação. Projetos com Python, APIs e bancos de dados." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://alvaro3105.github.io/Portfolio/" />
   <meta property="og:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Álvaro Pires de Souza — Portfólio" />
-  <meta name="twitter:description" content="Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados" />
+  <meta name="twitter:description" content="Estudante de TI e desenvolvedor em formação. Projetos com Python, APIs e bancos de dados." />
   <meta name="twitter:image" content="https://alvaro3105.github.io/Portfolio/assets/images/perfil.jpg" />
   <link rel="canonical" href="https://alvaro3105.github.io/Portfolio/" />
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Pular para o conteúdo</a>
 
   <header class="site-header" id="siteHeader">
     <div class="container nav">
@@ -41,13 +41,13 @@
       </ul>
 
       <div class="nav-actions">
-        <button class="lang-switch" id="langSwitch" type="button" aria-label="Alternar idioma">EN</button>
-        <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <button class="lang-switch" id="langSwitch" type="button" aria-label="Mudar para inglês">EN</button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-controls="navLinks" aria-expanded="false">☰</button>
       </div>
     </div>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="-1">
     <section class="hero" id="hero">
       <svg class="flight-path" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
         <defs>
@@ -64,13 +64,12 @@
         <div class="hero-content">
           <div class="availability" data-i18n="availability">Buscando primeira oportunidade em TI</div>
           <h1>Álvaro Pires<br /><span class="gradient-text">de Souza</span></h1>
-          <p class="hero-role" data-i18n="heroRole">Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados</p>
-          <p class="hero-copy" data-i18n="heroCopy">Desenvolvo projetos acadêmicos com foco em APIs REST, aplicações CRUD, banco de dados e arquitetura de software. Estou construindo minha base em desenvolvimento, infraestrutura e segurança para iniciar minha carreira em tecnologia.</p>
+          <p class="hero-role" data-i18n="heroRole">Estudante de TI. Desenvolvedor em formação.</p>
+          <p class="hero-copy" data-i18n="heroCopy">Construo projetos com Python, APIs e bancos de dados e tenho uma base técnica em suporte, hardware, redes e Linux. Busco minha primeira oportunidade de estágio em TI.</p>
 
           <div class="hero-actions">
             <a class="btn primary" href="#projetos" data-i18n="viewProjects">Ver projetos</a>
-            <a class="btn secondary" href="https://github.com/Alvaro3105" target="_blank" rel="noopener" data-i18n="github">GitHub</a>
-            <a class="btn secondary" href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener" data-i18n="linkedin">LinkedIn</a>
+            <a class="btn secondary" href="#contato" data-i18n="contactCta">Entrar em contato</a>
             <a class="btn secondary" href="assets/docs/Curriculo_Alvaro_Pires_de_Souza.pdf" target="_blank" rel="noopener" data-i18n="resume">Currículo</a>
           </div>
 
@@ -145,7 +144,7 @@
         </div>
 
         <div class="projects-grid">
-          <article class="project-card reveal">
+          <article class="project-card project-card--featured reveal">
             <div class="project-top"><span class="project-number">01</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
             <h3>Helpdesk API</h3>
             <p data-i18n="helpdeskDesc">API REST para gerenciamento de usuários e chamados de suporte, com arquitetura em camadas, regras de negócio, filtros, estatísticas e testes automatizados.</p>
@@ -155,6 +154,17 @@
 
           <article class="project-card reveal">
             <div class="project-top"><span class="project-number">02</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <h3>ExplAIner</h3>
+            <p data-i18n="explainerDesc">Projeto desenvolvido em equipe para organizar alunos, temas e questões, com aplicação Flask, persistência de dados e testes automatizados.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>SQLAlchemy</span><span data-i18n="teamWork">Trabalho em equipe</span></div>
+            <div class="project-links">
+              <a class="project-link" href="https://github.com/lucasf0ntana/ExplAInerRepositorio" target="_blank" rel="noopener" data-i18n="canonicalRepoLink">Repositório da equipe →</a>
+              <a class="project-link project-link--secondary" href="https://github.com/Alvaro3105/Explainer" target="_blank" rel="noopener" data-i18n="mirrorRepoLink">Mirror no meu GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-number">03</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
             <h3>Projeto CRUD Varejo</h3>
             <p data-i18n="retailDesc">Aplicação desktop em C# e Windows Forms para gerenciar clientes e fornecedores por meio de operações CRUD.</p>
             <div class="project-tags"><span>C#</span><span>Windows Forms</span><span>CRUD</span><span>Banco de Dados</span></div>
@@ -162,15 +172,15 @@
           </article>
 
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-number">03</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <div class="project-top"><span class="project-number">04</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
             <h3>API REST de Questões</h3>
-            <p data-i18n="laravelDesc">API REST em Laravel para gerenciamento de questões, com rotas CRUD, Controllers, Models, migrations e persistência em MySQL.</p>
-            <div class="project-tags"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>MVC</span><span>REST</span></div>
+            <p data-i18n="laravelDesc">API REST em Laravel 12 para gerenciar questões e seus temas, com validação, relacionamento Eloquent, migrations e testes de integração.</p>
+            <div class="project-tags"><span>PHP</span><span>Laravel 12</span><span>Eloquent</span><span>SQLite / MySQL</span><span>REST</span></div>
             <a class="project-link" href="https://github.com/Alvaro3105/atividade_integrada" target="_blank" rel="noopener" data-i18n="repoLink">Abrir repositório →</a>
           </article>
 
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-number">04</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
+            <div class="project-top"><span class="project-number">05</span><span class="project-label" data-i18n="academic">Projeto acadêmico</span></div>
             <h3>CRUD de Veículos com PHP &amp; PDO</h3>
             <p data-i18n="pdoDesc">Aplicação web em PHP com PDO e MySQL para praticar operações CRUD, consultas parametrizadas e persistência de dados.</p>
             <div class="project-tags"><span>PHP</span><span>PDO</span><span>MySQL</span><span>CRUD</span></div>
@@ -238,7 +248,7 @@
           </div>
         </div>
 
-        <div class="certificates-grid">
+        <div class="certificates-grid" id="certificatesGrid">
           <article class="certificate-card reveal"><h3 data-i18n="certCyber">Introdução à Cibersegurança</h3><p data-i18n="cisco">Cisco Networking Academy</p></article>
           <article class="certificate-card reveal"><h3 data-i18n="certAI">Introdução à IA Moderna</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-introducao-ia-moderna.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
           <article class="certificate-card reveal"><h3 data-i18n="certHardware">Fundamentos do Hardware do Computador</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-fundamentos-hardware.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
@@ -248,7 +258,7 @@
           <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certDevices">Using Computer and Mobile Devices</h3><p data-i18n="cisco">Cisco Networking Academy</p><a class="cert-view" href="assets/docs/certificados/cisco-using-computer-mobile-devices.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
           <article class="certificate-card hidden-cert reveal"><h3 data-i18n="certCoke">Coletivo Coca-Cola Jovem</h3><p data-i18n="coke">Coletivo Coca-Cola • 2026</p><a class="cert-view" href="assets/docs/certificados/coletivo-coca-cola-jovem.pdf" target="_blank" rel="noopener" data-i18n="certView">Ver certificado</a></article>
         </div>
-        <div class="cert-actions reveal"><button type="button" class="text-button" id="certToggle" data-i18n="showAll">Ver todos</button></div>
+        <div class="cert-actions reveal"><button type="button" class="text-button" id="certToggle" aria-controls="certificatesGrid" aria-expanded="false" data-i18n="showAll">Ver todos</button></div>
       </div>
     </section>
 
@@ -270,9 +280,9 @@
           <aside class="contact-card reveal">
             <h3 data-i18n="contactLinksTitle">Links profissionais</h3>
             <div class="contact-links">
-              <a href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener"><span>LinkedIn</span><span>↗</span></a>
-              <a href="https://github.com/Alvaro3105" target="_blank" rel="noopener"><span>GitHub</span><span>↗</span></a>
-              <a href="mailto:ap4321316@gmail.com"><span>E-mail</span><span>↗</span></a>
+              <a href="https://www.linkedin.com/in/alvaro-pires-de-souza/" target="_blank" rel="noopener"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/Alvaro3105" target="_blank" rel="noopener"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+              <a href="mailto:ap4321316@gmail.com"><span>E-mail</span><span aria-hidden="true">↗</span></a>
             </div>
           </aside>
         </div>

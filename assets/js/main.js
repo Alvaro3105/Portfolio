@@ -1,5 +1,6 @@
 const translations = {
   pt: {
+    skipLink: "Pular para o conteúdo",
     navAbout: "Sobre",
     navSkills: "Competências",
     navProjects: "Projetos",
@@ -8,9 +9,10 @@ const translations = {
     navCertificates: "Certificações",
     navContact: "Contato",
     availability: "Buscando primeira oportunidade em TI",
-    heroRole: "Estudante Técnico em TI | Desenvolvimento de Software • Banco de Dados",
-    heroCopy: "Desenvolvo projetos acadêmicos com foco em APIs REST, aplicações CRUD, banco de dados e arquitetura de software. Estou construindo minha base em desenvolvimento, infraestrutura e segurança para iniciar minha carreira em tecnologia.",
+    heroRole: "Estudante de TI. Desenvolvedor em formação.",
+    heroCopy: "Construo projetos com Python, APIs e bancos de dados e tenho uma base técnica em suporte, hardware, redes e Linux. Busco minha primeira oportunidade de estágio em TI.",
     viewProjects: "Ver projetos",
+    contactCta: "Entrar em contato",
     github: "GitHub",
     linkedin: "LinkedIn",
     resume: "Currículo",
@@ -43,10 +45,14 @@ const translations = {
     projectsIntro: "Uma seleção curta de projetos que demonstra diferentes tecnologias e conceitos. Projetos acadêmicos são identificados de forma transparente.",
     academic: "Projeto acadêmico",
     helpdeskDesc: "API REST para gerenciamento de usuários e chamados de suporte, com arquitetura em camadas, regras de negócio, filtros, estatísticas e testes automatizados.",
+    explainerDesc: "Projeto desenvolvido em equipe para organizar alunos, temas e questões, com aplicação Flask, persistência de dados e testes automatizados.",
+    teamWork: "Trabalho em equipe",
     retailDesc: "Aplicação desktop em C# e Windows Forms para gerenciar clientes e fornecedores por meio de operações CRUD.",
-    laravelDesc: "API REST em Laravel para gerenciamento de questões, com rotas CRUD, Controllers, Models, migrations e persistência em MySQL.",
+    laravelDesc: "API REST em Laravel 12 para gerenciar questões e seus temas, com validação, relacionamento Eloquent, migrations e testes de integração.",
     pdoDesc: "Aplicação web em PHP com PDO e MySQL para praticar operações CRUD, consultas parametrizadas e persistência de dados.",
     repoLink: "Abrir repositório →",
+    canonicalRepoLink: "Repositório da equipe →",
+    mirrorRepoLink: "Mirror no meu GitHub →",
     educationEyebrow: "Formação",
     educationTitle: "Formação acadêmica",
     educationDate: "2024 — 2026",
@@ -92,6 +98,7 @@ const translations = {
     terminal: ["python • flask • APIs REST", "php • laravel • mysql", "c# • windows forms • CRUD", "git • github • linux"]
   },
   en: {
+    skipLink: "Skip to content",
     navAbout: "About",
     navSkills: "Skills",
     navProjects: "Projects",
@@ -100,9 +107,10 @@ const translations = {
     navCertificates: "Certificates",
     navContact: "Contact",
     availability: "Looking for my first opportunity in IT",
-    heroRole: "IT Technical Student | Software Development • Databases",
-    heroCopy: "I build academic projects focused on REST APIs, CRUD applications, databases and software architecture. I am strengthening my foundation in development, infrastructure and security as I prepare to start my career in technology.",
+    heroRole: "IT student. Developer in training.",
+    heroCopy: "I build projects with Python, APIs and databases, backed by technical foundations in support, hardware, networking and Linux. I am looking for my first IT internship.",
     viewProjects: "View projects",
+    contactCta: "Get in touch",
     github: "GitHub",
     linkedin: "LinkedIn",
     resume: "Resume (PT-BR)",
@@ -135,10 +143,14 @@ const translations = {
     projectsIntro: "A short selection showing different technologies and concepts. Academic projects are clearly identified.",
     academic: "Academic project",
     helpdeskDesc: "REST API for user and support-ticket management, using layered architecture, business rules, filters, statistics and automated tests.",
+    explainerDesc: "Team project for managing students, topics and questions, built with Flask, data persistence and automated tests.",
+    teamWork: "Teamwork",
     retailDesc: "Desktop application built with C# and Windows Forms to manage customers and suppliers through CRUD operations.",
-    laravelDesc: "Laravel REST API for question management with CRUD routes, Controllers, Models, migrations and MySQL persistence.",
+    laravelDesc: "Laravel 12 REST API for managing questions and their topics, with validation, Eloquent relationships, migrations and integration tests.",
     pdoDesc: "PHP web application using PDO and MySQL to practice CRUD operations, parameterized queries and data persistence.",
     repoLink: "Open repository →",
+    canonicalRepoLink: "Team repository →",
+    mirrorRepoLink: "Mirror on my GitHub →",
     educationEyebrow: "Education",
     educationTitle: "Academic background",
     educationDate: "2024 — 2026",
@@ -193,6 +205,7 @@ try {
 }
 let terminalIndex = 0;
 let typingTimer;
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 const $ = (selector, scope = document) => scope.querySelector(selector);
 const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
@@ -209,7 +222,15 @@ function applyLanguage(nextLang) {
     if (translations[lang][key]) el.textContent = translations[lang][key];
   });
   const switcher = $("#langSwitch");
-  if (switcher) switcher.textContent = lang === "pt" ? "EN" : "PT";
+  if (switcher) {
+    switcher.textContent = lang === "pt" ? "EN" : "PT";
+    switcher.setAttribute("aria-label", lang === "pt" ? "Mudar para inglês" : "Switch to Portuguese");
+  }
+  const menuButton = $("#menuBtn");
+  if (menuButton) {
+    const menuOpen = $("#navLinks")?.classList.contains("open");
+    menuButton.setAttribute("aria-label", menuOpen ? (lang === "pt" ? "Fechar menu" : "Close menu") : (lang === "pt" ? "Abrir menu" : "Open menu"));
+  }
   const certBtn = $("#certToggle");
   if (certBtn) certBtn.textContent = document.body.classList.contains("show-all-certs") ? translations[lang].showLess : translations[lang].showAll;
   startTyping();
@@ -217,6 +238,10 @@ function applyLanguage(nextLang) {
 
 function typeText(text, target) {
   clearTimeout(typingTimer);
+  if (reducedMotion.matches) {
+    target.textContent = text;
+    return;
+  }
   target.textContent = "";
   let i = 0;
   function tick() {
@@ -241,7 +266,7 @@ function cycleTerminal() {
 }
 
 const revealElements = $$('.reveal');
-if ("IntersectionObserver" in window) {
+if ("IntersectionObserver" in window && !reducedMotion.matches) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -262,22 +287,39 @@ window.addEventListener("scroll", () => {
 
 $("#langSwitch")?.addEventListener("click", () => applyLanguage(lang === "pt" ? "en" : "pt"));
 
+function closeMenu() {
+  $("#navLinks")?.classList.remove("open");
+  const menuButton = $("#menuBtn");
+  menuButton?.setAttribute("aria-expanded", "false");
+  menuButton?.setAttribute("aria-label", lang === "pt" ? "Abrir menu" : "Open menu");
+}
+
 $("#menuBtn")?.addEventListener("click", () => {
   const menu = $("#navLinks");
   const open = menu.classList.toggle("open");
   $("#menuBtn").setAttribute("aria-expanded", String(open));
+  $("#menuBtn").setAttribute("aria-label", open ? (lang === "pt" ? "Fechar menu" : "Close menu") : (lang === "pt" ? "Abrir menu" : "Open menu"));
 });
 
-$$('#navLinks a').forEach((link) => link.addEventListener("click", () => {
-  $("#navLinks")?.classList.remove("open");
-  $("#menuBtn")?.setAttribute("aria-expanded", "false");
-}));
+$$('#navLinks a').forEach((link) => link.addEventListener("click", closeMenu));
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && $("#navLinks")?.classList.contains("open")) {
+    closeMenu();
+    $("#menuBtn")?.focus();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 900) closeMenu();
+});
 
 $("#certToggle")?.addEventListener("click", () => {
   const active = document.body.classList.toggle("show-all-certs");
   $("#certToggle").textContent = active ? translations[lang].showLess : translations[lang].showAll;
+  $("#certToggle").setAttribute("aria-expanded", String(active));
 });
 
 $("#year")?.replaceChildren(String(new Date().getFullYear()));
 applyLanguage(lang);
-setInterval(cycleTerminal, 4200);
+if (!reducedMotion.matches) setInterval(cycleTerminal, 4200);

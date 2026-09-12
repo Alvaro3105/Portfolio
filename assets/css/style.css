@@ -40,6 +40,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   outline-offset: 3px;
   border-radius: 6px;
 }
+#main:focus { outline: none; }
 
 .skip-link {
   position: fixed;
@@ -207,6 +208,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 
 .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .project-card { padding: 1.5rem; display: flex; flex-direction: column; min-height: 300px; transition: transform .2s, border-color .2s; }
+.project-card--featured { grid-column: 1 / -1; min-height: 260px; background: linear-gradient(120deg, rgba(23,37,65,.96), rgba(13,17,28,.84)); }
 .project-card:hover { transform: translateY(-4px); border-color: var(--border-strong); }
 .project-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
 .project-number { font-family: var(--mono); color: var(--blue-light); font-size: .76rem; }
@@ -215,7 +217,10 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .project-card p { color: var(--muted); font-size: .9rem; }
 .project-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0 1.25rem; }
 .project-tags span { font-family: var(--mono); font-size: .68rem; color: #bfdbfe; }
+.project-links { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; margin-top: auto; }
 .project-link { margin-top: auto; text-decoration: none; font-weight: 700; font-size: .85rem; color: var(--blue-light); }
+.project-links .project-link { margin-top: 0; }
+.project-link--secondary { color: #c4b5fd; }
 .project-link:hover { color: #fff; }
 
 .timeline { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
@@ -286,6 +291,7 @@ footer { border-top: 1px solid var(--border); padding: 1.7rem 0; color: var(--mu
   .hero h1 { font-size: clamp(2.65rem, 15vw, 4rem); }
   .hero-actions .btn { flex: 1 1 46%; }
   .skills-grid, .projects-grid, .timeline, .certificates-grid { grid-template-columns: 1fr; }
+  .project-card--featured { grid-column: auto; }
   .section-head { align-items: flex-start; flex-direction: column; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .nav { min-height: 68px; }

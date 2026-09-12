@@ -68,8 +68,9 @@ Portfolio/
 O portfólio destaca atualmente:
 
 - **Helpdesk API** — Python, Flask, SQLAlchemy e API REST;
+- **ExplAIner** — projeto em equipe com Python, Flask, SQLAlchemy e testes;
 - **Projeto CRUD Varejo** — C# e Windows Forms;
-- **API REST de Questões** — PHP, Laravel e MySQL;
+- **API REST de Questões** — PHP, Laravel 12, Eloquent e SQLite/MySQL;
 - **CRUD de Veículos** — PHP, PDO e MySQL.
 
 Todos são apresentados de acordo com seu contexto real, incluindo a identificação de projetos acadêmicos.
