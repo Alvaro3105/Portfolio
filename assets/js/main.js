@@ -1,6 +1,13 @@
 const translations = {
   pt: {
     skipLink: "Pular para o conteúdo",
+    homeLabel: "Página inicial",
+    terminalLabel: "Tecnologias em destaque",
+    factsLabel: "Informações rápidas",
+    portraitAlt: "Retrato de Álvaro Pires de Souza",
+    googlePhotoAlt: "Álvaro no Google I/O Extended Belo Horizonte",
+    minasPhotoAlt: "Álvaro no Minas Summit",
+    volunteerPhotoAlt: "Álvaro em ação voluntária no World Creativity Day",
     navAbout: "Sobre",
     navSkills: "Competências",
     navProjects: "Projetos",
@@ -40,6 +47,11 @@ const translations = {
     toolsTitle: "Ferramentas",
     infraTitle: "Infraestrutura",
     securityTitle: "Segurança",
+    oopTag: "POO",
+    networksTag: "Redes",
+    authenticationTag: "Autenticação",
+    authorizationTag: "Autorização",
+    cybersecurityTag: "Fundamentos de Cybersecurity",
     projectsEyebrow: "Código na prática",
     projectsTitle: "Projetos selecionados",
     projectsIntro: "Uma seleção curta de projetos que demonstra diferentes tecnologias e conceitos. Projetos acadêmicos são identificados de forma transparente.",
@@ -47,6 +59,9 @@ const translations = {
     helpdeskDesc: "API REST para gerenciamento de usuários e chamados de suporte, com arquitetura em camadas, regras de negócio, filtros, estatísticas e testes automatizados.",
     explainerDesc: "Projeto desenvolvido em equipe para organizar alunos, temas e questões, com aplicação Flask, persistência de dados e testes automatizados.",
     teamWork: "Trabalho em equipe",
+    retailTitle: "Projeto CRUD Varejo",
+    laravelTitle: "API REST de Questões",
+    pdoTitle: "CRUD de Veículos com PHP & PDO",
     retailDesc: "Aplicação desktop em C# e Windows Forms para gerenciar clientes e fornecedores por meio de operações CRUD.",
     laravelDesc: "API REST em Laravel 12 para gerenciar questões e seus temas, com validação, relacionamento Eloquent, migrations e testes de integração.",
     pdoDesc: "Aplicação web em PHP com PDO e MySQL para praticar operações CRUD, consultas parametrizadas e persistência de dados.",
@@ -99,6 +114,13 @@ const translations = {
   },
   en: {
     skipLink: "Skip to content",
+    homeLabel: "Home",
+    terminalLabel: "Featured technologies",
+    factsLabel: "Quick facts",
+    portraitAlt: "Portrait of Álvaro Pires de Souza",
+    googlePhotoAlt: "Álvaro at Google I/O Extended Belo Horizonte",
+    minasPhotoAlt: "Álvaro at Minas Summit",
+    volunteerPhotoAlt: "Álvaro volunteering at World Creativity Day",
     navAbout: "About",
     navSkills: "Skills",
     navProjects: "Projects",
@@ -138,6 +160,11 @@ const translations = {
     toolsTitle: "Tools",
     infraTitle: "Infrastructure",
     securityTitle: "Security",
+    oopTag: "OOP",
+    networksTag: "Networking",
+    authenticationTag: "Authentication",
+    authorizationTag: "Authorization",
+    cybersecurityTag: "Cybersecurity fundamentals",
     projectsEyebrow: "Code in practice",
     projectsTitle: "Selected projects",
     projectsIntro: "A short selection showing different technologies and concepts. Academic projects are clearly identified.",
@@ -145,6 +172,9 @@ const translations = {
     helpdeskDesc: "REST API for user and support-ticket management, using layered architecture, business rules, filters, statistics and automated tests.",
     explainerDesc: "Team project for managing students, topics and questions, built with Flask, data persistence and automated tests.",
     teamWork: "Teamwork",
+    retailTitle: "Retail CRUD Project",
+    laravelTitle: "Questions REST API",
+    pdoTitle: "Vehicle CRUD with PHP & PDO",
     retailDesc: "Desktop application built with C# and Windows Forms to manage customers and suppliers through CRUD operations.",
     laravelDesc: "Laravel 12 REST API for managing questions and their topics, with validation, Eloquent relationships, migrations and integration tests.",
     pdoDesc: "PHP web application using PDO and MySQL to practice CRUD operations, parameterized queries and data persistence.",
@@ -221,6 +251,12 @@ function applyLanguage(nextLang) {
     const key = el.dataset.i18n;
     if (translations[lang][key]) el.textContent = translations[lang][key];
   });
+  for (const [dataAttribute, attribute] of [["data-i18n-label", "aria-label"], ["data-i18n-alt", "alt"]]) {
+    $$(`[${dataAttribute}]`).forEach((el) => {
+      const value = translations[lang][el.getAttribute(dataAttribute)];
+      if (value) el.setAttribute(attribute, value);
+    });
+  }
   const switcher = $("#langSwitch");
   if (switcher) {
     switcher.textContent = lang === "pt" ? "EN" : "PT";
@@ -297,6 +333,7 @@ function closeMenu() {
 $("#menuBtn")?.addEventListener("click", () => {
   const menu = $("#navLinks");
   const open = menu.classList.toggle("open");
+  if (open) menu.querySelector("a")?.focus();
   $("#menuBtn").setAttribute("aria-expanded", String(open));
   $("#menuBtn").setAttribute("aria-label", open ? (lang === "pt" ? "Fechar menu" : "Close menu") : (lang === "pt" ? "Abrir menu" : "Open menu"));
 });
