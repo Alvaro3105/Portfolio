@@ -1,99 +1,136 @@
 %PDF-1.4
-%ASCII
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 7 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R 10 0 R] >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://alvaro3105.github.io/Portfolio/)
+>> /Border [ 0 0 0 ] /Rect [ 45.35433 756.3701 75.43193 766.5701 ] /Subtype /Link /Type /Annot
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Alvaro3105)
+>> /Border [ 0 0 0 ] /Rect [ 87.42033 756.3701 112.9387 766.5701 ] /Subtype /Link /Type /Annot
+>>
 endobj
 6 0 obj
-<< /Length 4637 >>
-stream
-BT /F2 18 Tf .07 .20 .36 rg 153 804 Td (\301LVARO PIRES DE SOUZA) Tj ET
-BT /F2 10 Tf .28 .35 .45 rg 125 785 Td (Estudante T\351cnico em TI | Desenvolvimento de Software | Banco de Dados) Tj ET
-BT /F1 8.6 Tf .18 .18 .20 rg 133 770 Td (Nova Lima, MG | ap4321316@gmail.com | LinkedIn | GitHub) Tj ET
-BT /F2 8.8 Tf .08 .28 .52 rg 187 756 Td (Portf\363lio: alvaro3105.github.io/Portfolio/) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 731 Td (RESUMO PROFISSIONAL) Tj ET
-.78 .84 .91 RG .7 w 42 727 m 553 727 l S
-BT /F1 8.7 Tf 0 0 0 rg 42 713 Td (Estudante do 3\272 ano do Ensino M\351dio T\351cnico em TI no COTEMIG, com conclus\343o prevista para dezembro de 2026.) Tj ET
-BT /F1 8.7 Tf 0 0 0 rg 42 702 Td (Desenvolvo projetos acad\352micos e pessoais com Python, Flask, PHP, Laravel, C#, JavaScript, SQL e MySQL, com) Tj ET
-BT /F1 8.7 Tf 0 0 0 rg 42 691 Td (foco em APIs REST, CRUD, banco de dados e arquitetura de aplica\347\365es. Tamb\351m possuo conhecimentos em) Tj ET
-BT /F1 8.7 Tf 0 0 0 rg 42 680 Td (Git/GitHub, Linux, redes, hardware e seguran\347a da informa\347\343o. Busco minha primeira oportunidade profissional) Tj ET
-BT /F1 8.7 Tf 0 0 0 rg 42 669 Td (em Tecnologia da Informa\347\343o.) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 654 Td (PROJETOS) Tj ET
-.78 .84 .91 RG .7 w 42 650 m 553 650 l S
-BT /F2 8.7 Tf 0 0 0 rg 42 636 Td (Helpdesk API - Python, Flask e SQLAlchemy | Projeto acad\352mico) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 625 Td (- API REST para usu\341rios e chamados, organizada em Controllers, Services, Repositories e Models, com) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 615 Td (CRUD, valida\347\365es, regras de neg\363cio, filtros, estat\355sticas e testes automatizados.) Tj ET
-BT /F2 8.7 Tf 0 0 0 rg 42 603 Td (Portf\363lio Profissional - HTML5, CSS3 e JavaScript | Projeto pessoal) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 592 Td (- Site responsivo e bil\355ngue \(PT/EN\), com acessibilidade, SEO, curr\355culo, certifica\347\365es, GitHub Pages e) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 582 Td (identidade visual pr\363pria.) Tj ET
-BT /F2 8.7 Tf 0 0 0 rg 42 570 Td (API REST de Quest\365es - PHP, Laravel e MySQL | Projeto acad\352mico) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 559 Td (- CRUD de quest\365es com GET, POST, PUT, PATCH e DELETE, utilizando MVC, migrations e persist\352ncia em) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 549 Td (MySQL.) Tj ET
-BT /F2 8.7 Tf 0 0 0 rg 42 537 Td (Projeto CRUD Varejo - C# e Windows Forms | Projeto acad\352mico) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 526 Td (- Aplica\347\343o desktop para cadastro, consulta, edi\347\343o e exclus\343o de clientes e fornecedores com) Tj ET
-BT /F1 8.1 Tf 0 0 0 rg 52 516 Td (persist\352ncia em MySQL.) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 504 Td (COMPET\312NCIAS T\311CNICAS) Tj ET
-.78 .84 .91 RG .7 w 42 500 m 553 500 l S
-BT /F1 8.3 Tf 0 0 0 rg 42 486 Td (Linguagens e Web: Python, PHP, C#, JavaScript, HTML5, CSS3 e SQL.) Tj ET
-BT /F1 8.3 Tf 0 0 0 rg 42 475 Td (Backend e Banco: Flask, Laravel, APIs REST, MVC, POO, CRUD, arquitetura em camadas e MySQL.) Tj ET
-BT /F1 8.3 Tf 0 0 0 rg 42 464 Td (Ferramentas: Git, GitHub, Figma, Thunder Client e Linux.) Tj ET
-BT /F1 8.3 Tf 0 0 0 rg 42 453 Td (Fundamentos de TI: Redes de computadores, Cisco Packet Tracer, hardware, manuten\347\343o e seguran\347a da informa\347\343o.) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 440 Td (FORMA\307\303O) Tj ET
-.78 .84 .91 RG .7 w 42 436 m 553 436 l S
-BT /F2 8.7 Tf 0 0 0 rg 42 422 Td (COTEMIG - Ensino M\351dio T\351cnico em TI | 2024-2026) Tj ET
-BT /F1 8.2 Tf 0 0 0 rg 42 411 Td (3\272 ano em andamento | Conclus\343o prevista: dezembro de 2026) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 396 Td (EVENTOS E COMUNIDADE) Tj ET
-.78 .84 .91 RG .7 w 42 392 m 553 392 l S
-BT /F1 8.2 Tf 0 0 0 rg 42 378 Td (Google I/O Extended - Belo Horizonte \(13/06/2026, 4h\) | Minas Summit \(17 e 18/06/2026\) | Voluntariado em) Tj ET
-BT /F1 8.2 Tf 0 0 0 rg 42 368 Td (a\347\365es ligadas ao Code Club e ao World Creativity Day.) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 354 Td (CURSOS E CERTIFICA\307\325ES) Tj ET
-.78 .84 .91 RG .7 w 42 350 m 553 350 l S
-BT /F1 8 Tf 0 0 0 rg 42 336 Td (Cisco Networking Academy: Introdu\347\343o \340 Ciberseguran\347a; Introdu\347\343o \340 IA Moderna; Fundamentos do Hardware do) Tj ET
-BT /F1 8 Tf 0 0 0 rg 42 326 Td (Computador; Cisco Packet Tracer. Funda\347\343o Bradesco: Crie um Site Simples usando HTML, CSS e JavaScript. Coletivo) Tj ET
-BT /F1 8 Tf 0 0 0 rg 42 316 Td (Coca-Cola Jovem: desenvolvimento profissional.) Tj ET
-BT /F2 10 Tf .08 .28 .52 rg 42 302 Td (IDIOMAS) Tj ET
-.78 .84 .91 RG .7 w 42 298 m 553 298 l S
-BT /F1 8.2 Tf 0 0 0 rg 42 284 Td (Ingl\352s b\341sico - em desenvolvimento.) Tj ET
-endstream
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/alvaro-pires-de-souza/)
+>> /Border [ 0 0 0 ] /Rect [ 124.9271 756.3701 155.9231 766.5701 ] /Subtype /Link /Type /Annot
+>>
 endobj
 7 0 obj
-<< /Type /Annot /Subtype /Link /Rect [188 751 366 765] /Border [0 0 0] /A << /S /URI /URI (https://alvaro3105.github.io/Portfolio/) >> >>
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 8 0 obj
-<< /Type /Annot /Subtype /Link /Rect [302 765 345 778] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/alvaro-pires-de-souza/) >> >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Alvaro3105/Helpdesk)
+>> /Border [ 0 0 0 ] /Rect [ 89.69703 549.3701 205.6137 559.2701 ] /Subtype /Link /Type /Annot
+>>
 endobj
 9 0 obj
-<< /Type /Annot /Subtype /Link /Rect [360 765 400 778] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Alvaro3105) >> >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Alvaro3105/Explainer)
+>> /Border [ 0 0 0 ] /Rect [ 89.69703 497.7701 205.6137 507.6701 ] /Subtype /Link /Type /Annot
+>>
 endobj
 10 0 obj
-<< /Type /Annot /Subtype /Link /Rect [172 765 286 778] /Border [0 0 0] /A << /S /URI /URI (mailto:ap4321316@gmail.com) >> >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Alvaro3105/projeto-final-crud-varejo)
+>> /Border [ 0 0 0 ] /Rect [ 89.69703 455.3701 256.0947 465.2701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Alvaro3105/atividade_integrada)
+>> /Border [ 0 0 0 ] /Rect [ 89.69703 412.9701 241.6298 422.8701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 8 0 R 9 0 R 10 0 R 11 0 R ] /Contents 16 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 15 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/PageMode /UseNone /Pages 15 0 R /Type /Catalog
+>>
+endobj
+14 0 obj
+<<
+/Author (Alvaro Pires de Souza) /CreationDate (D:20260915020913+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260915020913+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (Curriculo - Alvaro Pires de Souza) /Trapped /False
+>>
+endobj
+15 0 obj
+<<
+/Count 1 /Kids [ 12 0 R ] /Type /Pages
+>>
+endobj
+16 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3244
+>>
+stream
+GauHN>BAN>&q801kc46;S0B`:kaM*`#f[0"A%Y(><MucV2+Rh@=OOFbOA"u%hk#s`"DD9uQc(W"6DuQdrUnc*d\2R`\pF#oJG1k0]$Wf&@($3oe4c7c_I3(0dgaLm@.u6U]i*H$TY$X=^L7tJ;18U3dEA#KQ:<Eh&9'a-,>M<q=TkqkUoWB:oHn(X+&3#=\/rG-r:tiU2_b+1Z[Wch?'FJ!BI9tm&)U[P)7nW<gsla3;6]jPaf\c>*i)p[co>MH0UN=.:Uk!cM`2j8YWsJL,.J4V7-DL1n<XEnir4;u.,ka/mY<5FGY_gVaKJt"5bnjS9*^d^.+Bb08CTlVIkPUu<7pHd$K$[LKj,VG%ZEROb]UtBf@NE_^B)Ze:%tc,=C1Y$?(8dZM/N?;'i?#e^51JW<.=Eq[pJ'd3VuW=bGc5h(J2'*':XY[]L^V3SDdSKMsfuSWm!St9s17Z7X*ae%m9`V0@"3iN\Tf2f=A7G\m]?FiTRmoDL)/uJmnS/m$`<HV8LndEFZ+F]spuDR.kiL]l>ZXBpF[\k*Ak_fgeMsdEib.iU[?6@5>P7:8c#"?155$^.WS-&D2J&oek4P1B;itmi,)ogDV2_:9(to)UCe.U&$faKc'o%DE%jI=NE]2EQ[fb1aeS1Duhb?i5Zf\"gJ:E#s[d;B7nV$6O,;nnMg0Z4>"?^SZiQ!1C@od:rK"K/6X;+N/XoJ,<.9/\ku[&SS2>rBMN,F:gk]3=I^i9WE<b>Bu7"ge:1qITYW!T=dSEO=d#PF(2>M:YY:j;+@"&rkZ$5;+m_ooe#*]2J%Y6c/R#Ym+kkHG<sQ6W!ft`[$AC2sAtAN4BmXDr80d@[jF15;Cl>.:T7"@BFVYVi;e^:q$NMG'UcoSLjf&G?(-`/IBXEle)WAXaP:!G"-='&?KgBso.Ner?jDk1$K/Z)gim#r"NHiSggP/-%fED]&RV5]U0(K^/-K=P?``7U`at^>Xe0C#7g8Ja49/F+j.pg2oMSR)!BG<-/LRdC%RPMFPnK[X`kXaZ*/qZRK>V(/h(;>Ak^9DNkQ>jKqV:rYOk5Z59CT1AQH8D.OHH86g6+^ZT,bEYs;^=[3:U]GX"2o\n6C(n-rX<Ho58KqpEC9p:_g&^Z@*V8=YcoP;G'/GJ@5o!4+Z&A@:hlm0"`C92LGFPFDt`iHW/"\Y3Tir-AE2'<%g5-rl=(Q+=Ou&P)g]4[7*bAo)QM2g1_-IAi77sH'tS`^`[*?TeYVW!a`o^m/@/'d*i7\E$WZE6A?j!.7?`3&m%"4Q[^apL\G.RY<'V35TU0;9A\ukrW'8<a_lE7mOX>Y/:r4SajU$pCW@Ae\?8>aiA!#M`Ws1>F:P7>FH7ZXLh.#'+kYdseTSln:llH0ZQKQiqIUqCU=6rN0eaoW9N[hZd^8sP-^X>o-]Bt=O,E'9CTM;\Qh!<;KfR]!J8)]JYD'-kCO/R/u@OXa:>d8t$5,[/:b0sU]dtGoW"94KQMG"(V##LCGRf&<>N+EjU1-L&2),1]SZ+st.#Xanc,,QpEE<#CTlkBOBVZr9:X[UAgJ`U)#*/T3"l28dl8tBJRCpta\(Kn;GJ76FB(e=@),uh!6bZ;$M7:t/&%1SF*eGrc_@(?c),%5')Er<'c[H3!`!9m5#-$QX')$"DOl_m<<,4iYNB/e3.C4N+*-6eoK+"G:+#"\)9.C`sZ*6g"pRdP/qfs2OVMb+L;dZYO6mok%n(3qS!gc`p%f\D\"in7hUOE6J`?FZ\c+F;YNW^,t`rD1:-dV)_fhpu4S(pi:N+R3B&C"rN:IKlMe(k'H>&0K%q$`Hi')1,6&'cH#Q\qQ-7,A@V!1#]`4dP_7Oc(ka.(0icA/[RrUn2d?_<<Su]?kgjgd>0H<qZO:AfL08WD!m1P-Hotf\J^<=_/eb&b7fBdWX2S:?u&P]P&YfCQ6:m,ipl:Xd+WVK5WhgsUa]];cijk#EL!u;#C4<VKHf*m@hXe,=L>r!o/@:7Ys0ejOb$&(1rcR8fIOb(E"_XT?@_6t(Ss[p15XelO-E_I'!.go!&rAB'TQN#DEIFC_+c*ajXnPp)S2?><D1%ZiC%8!"*3c^#>NSPAC3dSD0Jc$ig_"dr%<ag?W/hIIpnW?8,6ORk%1O3Nds9UfGlU\]HVdH`4AJCM,5Xa$d=2)qWN^RbX>2'P*l'Hkd(tr$03)N\Q(A5apM;s=7GQ=dBjk[R%3s5TbJm!Lffs6i^'ED=b;1:21d-231Ti8,=sKaQSOXCH0n1,f&O54*n0V\TB*iC9ktZ<R'^I8#eb(@d+?%_[Hj?>lY49pp;BRTdMUo.SE(<^98q%,NZA0!`ZTW+_8FDrc)TNF]`rC7m-7%Nr=248CKH75:F8ZL7g^`/*[GfGG333OUh1Y\*\NV=3iQ8uY=Qd4]_7RXLMt[equ7sf#j<S36Y<e^JaSRhpOh.hkf-nXfUL#LY-.NfLAfu6"!ceGNha)HG/hpU3H&u!!>aZQ7_Z@Q9lmmTEVcgi(lo8^)S9:elg>+[)BFMZOpuf5)`mX*^<T^4dt*RddB/+p9rFe(nP6FDEU(^F^=_!tS&&cMQT,i=4&X4]D@<$.Alf!IaMT].S$UnTg-*:)"Ua:Dg0QkU,AahAn%4WFSBW.eDIN#ICKHlQ*P3?[rUos`#$R"A;f7\`..F*HZqc4'CYHC`YjpsC[1W0fKt[gp#A0$B*3]SBMW8-3cW<so17`*![mp=)]M'`;j\==%1KnX0>mm?H7p*=^3N4nDqTY!$pfJ$t0rMS;QFrQ0QN9"-ITqSK3^+5*!1a&Oa`KY!!V?V\g$f2c\_&MkXMN9a9unJC=6Fau5<'cos3M=pGeULKPjrdgYTmO(kFOtG!ti7j@G$2E#&t:)Ea)ABi>p+UMF:2rTSHgthb<oC28<;a04KB/5eHi?^0o(.*n2k;6MCZ\MC3\C.GuPV[ReruV93(h>\E^_pOV:+QhA1TJ3F`VC^=F+N#l>:X.;SKWqhrk-]4E:Xfn]si=P+_3e#p1s('PHF1IKO+&6LqJTZ_%aPanPi,5F-mU:M?q/4cQ%"$UH4r%Kch>tc9c^ba2%,8Jbi\gsf&7QA0(g`21n1@$,`r^M36<mZUn/jt\i5K)W4ad[d4Gl,$mHZENX?j+G`CaVjQZ8Y$)lq65F'TZQ'??1jku92H\J8(,aDn`#hV.[oA1'-p-Ch?&YI;&B4k+_53n*R_+<Ts4:G-W\B(^87O@;7T(MGl/q7B27!;["#rD`J2H/\L0#77U5!f#Uh"o~>endstream
 endobj
 xref
-0 11
+0 17
 0000000000 65535 f 
-0000000016 00000 n 
-0000000065 00000 n 
-0000000122 00000 n 
-0000000293 00000 n 
-0000000390 00000 n 
-0000000492 00000 n 
-0000005180 00000 n 
-0000005333 00000 n 
-0000005497 00000 n 
-0000005640 00000 n 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000522 00000 n 
+0000000703 00000 n 
+0000000905 00000 n 
+0000001020 00000 n 
+0000001210 00000 n 
+0000001401 00000 n 
+0000001609 00000 n 
+0000001811 00000 n 
+0000002073 00000 n 
+0000002143 00000 n 
+0000002442 00000 n 
+0000002503 00000 n 
 trailer
-<< /Size 11 /Root 1 0 R >>
+<<
+/ID 
+[<33c61dbf17d6eec7e21ef51977e30634><33c61dbf17d6eec7e21ef51977e30634>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 14 0 R
+/Root 13 0 R
+/Size 17
+>>
 startxref
-5781
+5839
 %%EOF
